@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sync_1791929608720",
+    "timestamp": "2026-10-13T22:13:28.725Z",
+    "status": "success",
+    "recordsFound": 225,
+    "newCount": 0,
+    "updatedCount": 0,
+    "unchangedCount": 225,
+    "errorCount": 0,
+    "durationMs": 3767,
+    "details": "Sincronización completada: 0 nuevos, 0 actualizados, 225 sin cambios. Total en repositorio: 247."
+  },
+  {
+    "id": "sync_1791926918609",
+    "timestamp": "2026-10-13T21:28:38.610Z",
+    "status": "success",
+    "recordsFound": 225,
+    "newCount": 0,
+    "updatedCount": 0,
+    "unchangedCount": 225,
+    "errorCount": 0,
+    "durationMs": 4431,
+    "details": "Sincronización completada: 0 nuevos, 0 actualizados, 225 sin cambios. Total en repositorio: 225."
+  },
+  {
+    "id": "sync_1791328161096",
+    "timestamp": "2026-10-06T23:09:21.108Z",
+    "status": "success",
+    "recordsFound": 225,
+    "newCount": 0,
+    "updatedCount": 0,
+    "unchangedCount": 225,
+    "errorCount": 0,
+    "durationMs": 1842,
+    "details": "Sincronización completada: 0 nuevos, 0 actualizados, 225 sin cambios. Total en repositorio: 225."
+  },
+  {
+    "id": "sync_1791317460564",
+    "timestamp": "2026-10-06T20:11:00.564Z",
+    "status": "success",
+    "recordsFound": 225,
+    "newCount": 225,
+    "updatedCount": 0,
+    "unchangedCount": 0,
+    "errorCount": 0,
+    "durationMs": 1650,
+    "details": "Cosecha OAI-PMH inicial completada con éxito. 225 registros catalogados."
+  }
+]
