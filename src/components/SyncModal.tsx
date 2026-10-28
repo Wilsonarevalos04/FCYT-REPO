@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import {
   RefreshCw,
   X,
@@ -63,17 +64,28 @@ export const SyncModal: React.FC<SyncModalProps> = ({
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs animate-fadeIn">
       <div className="bg-white rounded-3xl max-w-xl w-full shadow-2xl border border-slate-200 overflow-hidden flex flex-col">
         {/* Header */}
-        <div className="p-5 bg-gradient-to-r from-blue-950 via-indigo-900 to-slate-900 text-white flex items-center justify-between">
-          <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-blue-500/20 flex items-center justify-center border border-blue-400/30">
-              <RefreshCw className={`w-5 h-5 text-blue-300 ${isSyncing ? 'animate-spin' : ''}`} />
+        <div className="p-5 bg-gradient-to-r from-[#0a1d37] to-[#1b60b8] text-white flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-white/10 p-1 flex items-center justify-center border border-white/20 shrink-0">
+              <Image
+                src="/logo-fcyt.png"
+                alt="Logo FCyT"
+                width={36}
+                height={36}
+                className="w-8 h-8 object-contain"
+              />
             </div>
             <div>
-              <h3 className="font-bold text-base">Sincronización OAI-PMH</h3>
-              <p className="text-xs text-blue-200">Protocolo de Cosecha DSpace 10.0</p>
+              <div className="flex items-center gap-2">
+                <h3 className="font-bold text-base leading-tight">Sincronización OAI-PMH</h3>
+                <span className="px-1.5 py-0.5 text-[9px] font-black uppercase tracking-wider rounded bg-white/15 text-blue-100 border border-white/20">
+                  FCyT
+                </span>
+              </div>
+              <p className="text-xs text-blue-100/90">Protocolo de Cosecha DSpace 10.0</p>
             </div>
           </div>
-          <button onClick={onClose} className="p-1.5 rounded-lg text-slate-300 hover:text-white">
+          <button onClick={onClose} className="p-1.5 rounded-lg text-slate-300 hover:text-white transition-colors">
             <X className="w-5 h-5" />
           </button>
         </div>
@@ -101,16 +113,6 @@ export const SyncModal: React.FC<SyncModalProps> = ({
             </div>
           </div>
 
-          {/* Endpoint Informativo */}
-          <div className="p-3 bg-blue-50/60 rounded-xl border border-blue-200 text-[11px] text-blue-900 space-y-1">
-            <span className="font-bold block">Endpoint OAI-PMH Primario:</span>
-            <code className="font-mono text-[10px] block break-all text-blue-800">
-              https://publicaciones.fctunca.edu.py/server/oai/request
-            </code>
-            <p className="text-[10px] text-slate-500 mt-1">
-              Prefijo de metadatos: <strong className="font-mono">dim</strong> (DSpace Intermediate Metadata) y <strong className="font-mono">oai_dc</strong>.
-            </p>
-          </div>
 
           {/* Resultado de la sincronización en vivo */}
           {lastResult && (
@@ -192,7 +194,7 @@ export const SyncModal: React.FC<SyncModalProps> = ({
           <button
             onClick={handleTriggerSync}
             disabled={isSyncing}
-            className="flex items-center gap-2 px-5 py-2.5 bg-blue-700 hover:bg-blue-800 disabled:opacity-50 text-white text-xs font-bold rounded-xl shadow-md transition-all active:scale-95"
+            className="flex items-center gap-2 px-5 py-2.5 bg-[#1b60b8] hover:bg-[#154c93] disabled:opacity-50 text-white text-xs font-bold rounded-xl shadow-md transition-all active:scale-95"
           >
             <RefreshCw className={`w-4 h-4 ${isSyncing ? 'animate-spin' : ''}`} />
             <span>{isSyncing ? 'Cosechando OAI-PMH...' : 'Sincronizar Ahora'}</span>
