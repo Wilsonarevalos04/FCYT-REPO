@@ -262,17 +262,17 @@ export default function HomePage() {
       {/* Footer Institucional con Logo Oficial y Creadores */}
       <footer className="mt-auto bg-gradient-to-b from-slate-900 via-slate-950 to-[#071326] text-white border-t border-slate-800/80 pt-10 pb-8 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto space-y-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
             {/* Columna Izquierda: Identidad Institucional y Logo */}
-            <div className="lg:col-span-6 flex flex-col sm:flex-row items-center sm:items-start gap-4 text-center sm:text-left">
-              <div className="w-20 h-20 rounded-2xl bg-white p-1 shadow-xl ring-2 ring-[#1b60b8]/40 shrink-0 flex items-center justify-center">
+            <div className="lg:col-span-7 flex flex-col sm:flex-row items-center sm:items-start gap-4 text-center sm:text-left">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white p-1 shadow-xl ring-2 ring-[#1b60b8]/40 shrink-0 flex items-center justify-center">
                 <img
                   src="/logo-fcyt.png"
                   alt="Escudo Oficial FCyT UNCA"
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="space-y-1.5">
+              <div className="space-y-1">
                 <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-[#1b60b8]/30 text-blue-200 border border-[#1b60b8]/40">
                   <ShieldCheck className="w-3 h-3 text-blue-300" />
                   <span>Universidad Nacional de Caaguazú</span>
@@ -289,76 +289,74 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Columna Derecha: Créditos de los Creadores */}
-            <div className="lg:col-span-6">
-              <div className="bg-white/5 border border-white/10 rounded-2xl p-5 sm:p-6 backdrop-blur-md shadow-lg">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-[10px] uppercase tracking-widest font-extrabold text-blue-300 flex items-center gap-1.5">
-
-                    Creadores y Desarrolladores del Sistema
+            {/* Columna Derecha: Créditos de los Creadores (Compacto y Estético) */}
+            <div className="lg:col-span-5">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-3.5 sm:p-4 backdrop-blur-md shadow-md">
+                <div className="flex items-center justify-between mb-2.5">
+                  <span className="text-[10px] uppercase tracking-wider font-extrabold text-blue-300 flex items-center gap-1.5">
+                    Creadores y Desarrollo
                   </span>
-                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-500/20 text-blue-200 border border-blue-400/30">
+                  <span className="px-1.5 py-0.5 rounded text-[9px] font-bold bg-[#1b60b8]/30 text-blue-200 border border-[#1b60b8]/40">
                     FCyT - UNCA
                   </span>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   <a
                     href="https://github.com/Wilsonarevalos04"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group bg-slate-900/60 hover:bg-slate-900/90 p-3 rounded-xl border border-white/5 hover:border-blue-400/40 transition-all duration-200 flex items-center justify-between gap-2.5 shadow-sm hover:shadow-md hover:shadow-blue-500/10"
+                    className="group bg-slate-900/60 hover:bg-slate-900/90 p-2.5 rounded-lg border border-white/5 hover:border-blue-400/40 transition-all duration-150 flex items-center justify-between gap-2 shadow-xs"
                     title="Ver perfil de GitHub de Wilson Arévalos"
                   >
-                    <div className="flex items-center gap-2.5 min-w-0">
-                      <div className="w-9 h-9 rounded-lg bg-[#1b60b8]/30 text-blue-300 flex items-center justify-center font-black text-xs shrink-0 border border-[#1b60b8]/40 group-hover:scale-105 group-hover:bg-[#1b60b8]/40 transition-transform">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <div className="w-7 h-7 rounded-md bg-[#1b60b8]/30 text-blue-300 flex items-center justify-center font-black text-[10px] shrink-0 border border-[#1b60b8]/40 group-hover:scale-105 transition-transform">
                         WA
                       </div>
                       <div className="min-w-0">
-                        <p className="font-extrabold text-xs text-white tracking-tight leading-tight group-hover:text-blue-200 transition-colors">
-                          WILSON JAVIER ARÉVALOS PERALTA
+                        <p className="font-bold text-[11px] text-white tracking-tight leading-tight group-hover:text-blue-200 transition-colors">
+                          Wilson Arévalos
                         </p>
-                        <div className="flex items-center gap-1.5 mt-0.5">
-                          <svg className="w-3 h-3 text-slate-400 group-hover:text-white shrink-0 transition-colors" viewBox="0 0 24 24" fill="currentColor">
+                        <div className="flex items-center gap-1 mt-0.5">
+                          <svg className="w-2.5 h-2.5 text-slate-400 group-hover:text-white shrink-0 transition-colors" viewBox="0 0 24 24" fill="currentColor">
                             <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
                           </svg>
-                          <span className="text-[10px] text-blue-300 font-medium">@Wilsonarevalos04</span>
+                          <span className="text-[9.5px] text-blue-300 font-medium truncate">@Wilsonarevalos04</span>
                         </div>
                       </div>
                     </div>
-                    <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-blue-300 shrink-0 transition-colors" />
+                    <ExternalLink className="w-3 h-3 text-slate-500 group-hover:text-blue-300 shrink-0 transition-colors" />
                   </a>
 
                   <a
                     href="https://github.com/Areco-Github"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group bg-slate-900/60 hover:bg-slate-900/90 p-3 rounded-xl border border-white/5 hover:border-emerald-400/40 transition-all duration-200 flex items-center justify-between gap-2.5 shadow-sm hover:shadow-md hover:shadow-emerald-500/10"
+                    className="group bg-slate-900/60 hover:bg-slate-900/90 p-2.5 rounded-lg border border-white/5 hover:border-emerald-400/40 transition-all duration-150 flex items-center justify-between gap-2 shadow-xs"
                     title="Ver perfil de GitHub de Jorge Areco"
                   >
-                    <div className="flex items-center gap-2.5 min-w-0">
-                      <div className="w-9 h-9 rounded-lg bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-black text-xs shrink-0 border border-emerald-500/30 group-hover:scale-105 group-hover:bg-emerald-500/30 transition-transform">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <div className="w-7 h-7 rounded-md bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-black text-[10px] shrink-0 border border-emerald-500/30 group-hover:scale-105 transition-transform">
                         JA
                       </div>
                       <div className="min-w-0">
-                        <p className="font-extrabold text-xs text-white tracking-tight leading-tight group-hover:text-emerald-200 transition-colors">
-                          JORGE RONALDO ARECO FALCÓN
+                        <p className="font-bold text-[11px] text-white tracking-tight leading-tight group-hover:text-emerald-200 transition-colors">
+                          Jorge Areco
                         </p>
-                        <div className="flex items-center gap-1.5 mt-0.5">
-                          <svg className="w-3 h-3 text-slate-400 group-hover:text-white shrink-0 transition-colors" viewBox="0 0 24 24" fill="currentColor">
+                        <div className="flex items-center gap-1 mt-0.5">
+                          <svg className="w-2.5 h-2.5 text-slate-400 group-hover:text-white shrink-0 transition-colors" viewBox="0 0 24 24" fill="currentColor">
                             <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
                           </svg>
-                          <span className="text-[10px] text-emerald-300 font-medium">@Areco-Github</span>
+                          <span className="text-[9.5px] text-emerald-300 font-medium truncate">@Areco-Github</span>
                         </div>
                       </div>
                     </div>
-                    <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-emerald-300 shrink-0 transition-colors" />
+                    <ExternalLink className="w-3 h-3 text-slate-500 group-hover:text-emerald-300 shrink-0 transition-colors" />
                   </a>
                 </div>
 
-                <div className="mt-3.5 pt-3 border-t border-white/10 flex flex-wrap items-center justify-between gap-2 text-[11px] text-slate-400">
-
-                  <div className="flex items-center gap-3">
+                <div className="mt-2.5 pt-2 border-t border-white/10 flex flex-wrap items-center justify-between gap-2 text-[10px] text-slate-400">
+                  <div className="flex items-center gap-2.5">
                     <button
                       onClick={() => setIsSyncModalOpen(true)}
                       className="text-blue-300 hover:text-white transition-colors"
@@ -379,13 +377,13 @@ export default function HomePage() {
                       rel="noopener noreferrer"
                       className="text-blue-300 hover:text-white transition-colors flex items-center gap-1"
                     >
-                      DSpace Oficial
-                      <ExternalLink className="w-3 h-3" />
+                      <span>DSpace Oficial</span>
+                      <ExternalLink className="w-2.5 h-2.5" />
                     </a>
                   </div>
                 </div>
-              </div>
             </div>
+          </div>
           </div>
 
           <div className="pt-6 border-t border-slate-800 text-[11px] text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
