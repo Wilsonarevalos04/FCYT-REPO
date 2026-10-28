@@ -70,18 +70,19 @@ export const Header: React.FC<HeaderProps> = ({
       className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs transition-all"
     >
       {/* Barra Superior Institucional */}
-      <div className="bg-gradient-to-r from-blue-950 via-indigo-900 to-slate-900 text-white text-xs py-1.5 px-4 sm:px-8">
+      <div className="bg-gradient-to-r from-[#0a1d37] via-[#0f2d57] to-[#1b60b8] text-white text-xs py-1.5 px-4 sm:px-8 border-b border-blue-950/40">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-2">
-            <span className="font-bold tracking-wide text-blue-200">FCyT - UNCA</span>
-            <span className="text-slate-400">|</span>
-            <span className="text-slate-300 hidden sm:inline">
+            <span className="font-extrabold tracking-wide text-blue-200">FCyT - UNCA</span>
+            <span className="text-blue-300/40">|</span>
+            <span className="text-blue-100 hidden sm:inline text-[11px] font-medium">
               Facultad de Ciencias y Tecnologías • Universidad Nacional de Caaguazú
             </span>
-            <span className="text-slate-300 sm:hidden">Facultad de Ciencias y Tecnologías</span>
+            <span className="text-blue-100 sm:hidden text-[11px]">FCyT - UNCA</span>
           </div>
 
           <div className="flex items-center gap-3">
+
             <button
               onClick={onOpenSync}
               className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/30 transition-colors"
@@ -90,7 +91,7 @@ export const Header: React.FC<HeaderProps> = ({
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
               <span>OAI-PMH Activo</span>
               {lastSyncAt && (
-                <span className="text-[10px] text-emerald-200/70 hidden md:inline">
+                <span className="text-[10px] text-emerald-200/70 hidden lg:inline">
                   • {new Date(lastSyncAt).toLocaleDateString('es-PY')}
                 </span>
               )}
@@ -100,7 +101,7 @@ export const Header: React.FC<HeaderProps> = ({
               href="https://publicaciones.fctunca.edu.py/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-300 hover:text-white flex items-center gap-1 text-[11px] transition-colors"
+              className="text-blue-200 hover:text-white flex items-center gap-1 text-[11px] transition-colors font-medium"
               title="Abrir repositorio oficial DSpace"
             >
               <span>Repositorio DSpace</span>
@@ -112,23 +113,27 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Barra Principal de Marca y Pestañas */}
       <div className="max-w-7xl mx-auto px-4 sm:px-8 py-3 flex flex-col xl:flex-row items-center justify-between gap-3">
-        {/* Identidad Institucional */}
+        {/* Identidad Institucional con Logo Oficial */}
         <div className="flex items-center justify-between w-full xl:w-auto">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-blue-700 to-indigo-800 text-white flex items-center justify-center shadow-md shadow-blue-900/20 ring-1 ring-blue-500/20">
-              <GraduationCap className="w-6 h-6" />
+            <div className="w-12 h-12 rounded-2xl bg-white p-0.5 shadow-md shadow-blue-900/15 ring-2 ring-[#1b60b8]/30 flex items-center justify-center overflow-hidden shrink-0">
+              <img
+                src="/logo-fcyt.png"
+                alt="Logo Oficial FCyT UNCA"
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h1 className="font-extrabold text-base sm:text-lg text-slate-900 tracking-tight leading-tight">
+                <h1 className="font-black text-base sm:text-lg text-slate-900 tracking-tight leading-tight">
                   Dashboard Analítico FCyT
                 </h1>
-                <span className="px-2 py-0.2 rounded text-[10px] font-bold bg-blue-100 text-blue-800 border border-blue-200">
+                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-[#1b60b8]/10 text-[#1b60b8] border border-[#1b60b8]/30">
                   OAI-PMH
                 </span>
               </div>
               <p className="text-[11px] text-slate-500 font-medium">
-                Estadísticas y Análisis de Producción Académica ({totalRecordsCount} documentos)
+                Facultad de Ciencias y Tecnologías • UNCA ({totalRecordsCount} documentos)
               </p>
             </div>
           </div>
@@ -158,11 +163,10 @@ export const Header: React.FC<HeaderProps> = ({
             {/* 1. Dashboard Principal */}
             <button
               onClick={() => setActiveTab('overview')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${
-                activeTab === 'overview'
-                  ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${activeTab === 'overview'
+                ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
+                : 'text-slate-600 hover:text-slate-900'
+                }`}
             >
               <BarChart3 className="w-3.5 h-3.5 text-blue-600" />
               <span>General</span>
@@ -171,11 +175,10 @@ export const Header: React.FC<HeaderProps> = ({
             {/* 2. Estadísticas de Autores */}
             <button
               onClick={() => setActiveTab('authors')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${
-                activeTab === 'authors'
-                  ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${activeTab === 'authors'
+                ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
+                : 'text-slate-600 hover:text-slate-900'
+                }`}
             >
               <Users className="w-3.5 h-3.5 text-purple-600" />
               <span>Autores</span>
@@ -184,11 +187,10 @@ export const Header: React.FC<HeaderProps> = ({
             {/* 3. Análisis Temático & ODS */}
             <button
               onClick={() => setActiveTab('thematic')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${
-                activeTab === 'thematic'
-                  ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${activeTab === 'thematic'
+                ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
+                : 'text-slate-600 hover:text-slate-900'
+                }`}
             >
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>Líneas & ODS</span>
@@ -197,11 +199,10 @@ export const Header: React.FC<HeaderProps> = ({
             {/* 4. Carreras y Unidades */}
             <button
               onClick={() => setActiveTab('careers')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${
-                activeTab === 'careers'
-                  ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${activeTab === 'careers'
+                ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
+                : 'text-slate-600 hover:text-slate-900'
+                }`}
             >
               <Layers className="w-3.5 h-3.5 text-indigo-600" />
               <span>Carreras</span>
@@ -210,11 +211,10 @@ export const Header: React.FC<HeaderProps> = ({
             {/* 5. Calidad de Metadatos */}
             <button
               onClick={() => setActiveTab('quality')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${
-                activeTab === 'quality'
-                  ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${activeTab === 'quality'
+                ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
+                : 'text-slate-600 hover:text-slate-900'
+                }`}
             >
               <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
               <span>Calidad</span>
@@ -223,11 +223,10 @@ export const Header: React.FC<HeaderProps> = ({
             {/* 6. Catálogo de Documentos */}
             <button
               onClick={() => setActiveTab('catalog')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${
-                activeTab === 'catalog'
-                  ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${activeTab === 'catalog'
+                ? 'bg-white text-blue-900 shadow-xs ring-1 ring-slate-200'
+                : 'text-slate-600 hover:text-slate-900'
+                }`}
             >
               <BookOpen className="w-3.5 h-3.5 text-slate-600" />
               <span>Catálogo</span>
@@ -247,7 +246,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             <button
               onClick={onOpenExport}
-              className="flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-white bg-blue-700 hover:bg-blue-800 rounded-xl shadow-xs transition-colors"
+              className="flex items-center gap-1.5 px-3 py-2 text-xs font-bold text-white bg-[#1b60b8] hover:bg-[#154c93] rounded-xl shadow-md shadow-[#1b60b8]/20 transition-all hover:scale-[1.02] active:scale-[0.98]"
               title="Exportar datos a Excel o CSV"
             >
               <Download className="w-3.5 h-3.5" />

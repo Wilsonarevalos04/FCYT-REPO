@@ -1,5 +1,29 @@
 [
   {
+    "id": "sync_1793140448275",
+    "timestamp": "2026-10-27T22:34:08.279Z",
+    "status": "success",
+    "recordsFound": 247,
+    "newCount": 0,
+    "updatedCount": 0,
+    "unchangedCount": 247,
+    "errorCount": 0,
+    "durationMs": 3568,
+    "details": "Sincronización completada: 0 nuevos, 0 actualizados, 247 sin cambios. Total en repositorio: 247."
+  },
+  {
+    "id": "sync_1793138623557",
+    "timestamp": "2026-10-27T22:03:43.561Z",
+    "status": "success",
+    "recordsFound": 247,
+    "newCount": 0,
+    "updatedCount": 29,
+    "unchangedCount": 218,
+    "errorCount": 0,
+    "durationMs": 6236,
+    "details": "Sincronización completada: 0 nuevos, 29 actualizados, 218 sin cambios. Total en repositorio: 247."
+  },
+  {
     "id": "sync_1791929608720",
     "timestamp": "2026-10-13T22:13:28.725Z",
     "status": "success",

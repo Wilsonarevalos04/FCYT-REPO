@@ -60,13 +60,18 @@ export const ExportModal: React.FC<ExportModalProps> = ({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs animate-fadeIn">
       <div className="bg-white rounded-3xl max-w-md w-full shadow-2xl border border-slate-200 overflow-hidden">
-        {/* Header */}
-        <div className="p-5 bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Download className="w-5 h-5 text-blue-300" />
-            <h3 className="font-bold text-base">Exportar Datos Filtrados</h3>
+        {/* Header con Logo Oficial */}
+        <div className="p-5 bg-gradient-to-r from-[#0a1d37] via-[#0f2d57] to-[#1b60b8] text-white flex items-center justify-between">
+          <div className="flex items-center gap-2.5">
+            <div className="w-8 h-8 rounded-lg bg-white p-0.5 shadow-sm flex items-center justify-center shrink-0">
+              <img src="/logo-fcyt.png" alt="FCyT" className="w-full h-full object-contain" />
+            </div>
+            <div>
+              <h3 className="font-extrabold text-sm sm:text-base tracking-tight leading-tight">Exportar Datos Filtrados</h3>
+              <p className="text-[10px] text-blue-200">Facultad de Ciencias y Tecnologías • UNCA</p>
+            </div>
           </div>
-          <button onClick={onClose} className="p-1.5 text-slate-300 hover:text-white rounded-lg">
+          <button onClick={onClose} className="p-1.5 text-blue-200 hover:text-white rounded-lg">
             <X className="w-5 h-5" />
           </button>
         </div>
@@ -145,16 +150,36 @@ export const ExportModal: React.FC<ExportModalProps> = ({
             </button>
           </div>
 
-          <div className="pt-2">
+          <div className="pt-2 space-y-2.5">
             <button
               type="button"
               onClick={handleExport}
               disabled={isExporting}
-              className="w-full py-3 bg-blue-700 hover:bg-blue-800 disabled:opacity-50 text-white rounded-xl text-xs font-bold shadow-md flex items-center justify-center gap-2 transition-all"
+              className="w-full py-3 bg-[#1b60b8] hover:bg-[#154c93] disabled:opacity-50 text-white rounded-xl text-xs font-bold shadow-md shadow-[#1b60b8]/20 flex items-center justify-center gap-2 transition-all hover:scale-[1.01] active:scale-[0.99]"
             >
               <Download className="w-4 h-4" />
               <span>{isExporting ? 'Generando archivo...' : 'Descargar Archivo'}</span>
             </button>
+            <p className="text-[10px] text-center text-slate-400">
+              Desarrollado para la FCyT-UNCA por{' '}
+              <a
+                href="https://github.com/Wilsonarevalos04"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-slate-600 hover:text-[#1b60b8] transition-colors underline decoration-slate-300"
+              >
+                Wilson Arévalos
+              </a>{' '}
+              &{' '}
+              <a
+                href="https://github.com/Areco-Github"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-slate-600 hover:text-[#1b60b8] transition-colors underline decoration-slate-300"
+              >
+                Jorge Areco
+              </a>
+            </p>
           </div>
         </div>
       </div>

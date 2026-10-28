@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastSyncAt": "2026-10-13T22:13:28.725Z",
+  "lastSyncAt": "2026-10-27T22:34:08.279Z",
   "totalRecords": 247,
   "records": [
     {
@@ -836,6 +836,59 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/256",
+      "datestamp": "2026-10-20T11:20:32Z",
+      "handle": "123456789/256",
+      "title": "Reingeniería del sistema de gestión académico de la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, año 2025",
+      "authors": [
+        "Ávalos Cardozo, Julio Juan",
+        "Sanabria Mendoza, Fernando Isaías",
+        "Melgarejo Riveros, Víctor Manuel",
+        "Coronel Rojas, Carlos Jein"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería Informática",
+      "community": "INGENIERIA INFORMATICA",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_3",
+        "col_123456789_4"
+      ],
+      "subjects": [
+        "Ingeniería de Software"
+      ],
+      "researchLine": "Ingeniería de Software",
+      "ods": [
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente Proyecto Final de Grado aborda la reingeniería del Sistema de Gestión Académica de la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, delimitada al ámbito de los procesos y funcionalidades de gestión académica. Mediante encuestas, análisis documental y reingeniería de procesos, se identificaron limitaciones en el sistema heredado, entre ellas inconsistencias y redundancias de datos, falta de normalización de la base de datos, ausencia de mecanismos de seguridad y auditoría trazable, así como el uso de un lenguaje de programación sin soporte oficial, aspectos que dificultan su mantenimiento y actualización. Como propuesta tecnológica, se diseñó una arquitectura cliente-servidor desacoplada, con un backend desarrollado en Django y Django REST Framework, mediante una API RESTful con autenticación JWT, validaciones y middleware de auditoría, y un frontend desarrollado en React para la interacción con los servicios mediante peticiones asíncronas. La persistencia se gestiona mediante PostgreSQL, aplicando normalización hasta la Tercera Forma Normal (3FN), restricciones de integridad referencial y transacciones para preservar la consistencia de los datos. La solución incorpora además control de acceso basado en roles (RBAC) y mecanismos de auditoría orientados a fortalecer la seguridad y trazabilidad de las operaciones. Como resultado, se obtuvo una propuesta tecnológica orientada a modernizar la gestión académica, automatizar procesos, reducir errores operativos y mejorar la disponibilidad, organización y consistencia de la información, estableciendo una base tecnológica para facilitar el mantenimiento y futuras ampliaciones del sistema.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/256",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/256/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:20:32Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/245",
       "datestamp": "2025-12-30T11:51:48Z",
       "handle": "123456789/245",
@@ -1110,6 +1163,61 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/268",
+      "datestamp": "2026-10-20T11:02:17Z",
+      "handle": "123456789/268",
+      "title": "Proyecto ejecutivo de edificio municipal de cultura para la ciudad de Villarrica del Espíritu Santo",
+      "authors": [
+        "Pezoa Benitez, Jose Maria",
+        "Gimenez Larramendia, Yanina Monserrath",
+        "Penayo Portillo, Esteban Arnaldo",
+        "Airaldi, Carmen Matilde"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería Civil",
+      "community": "INGENIERIA CIVIL",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_10",
+        "col_123456789_11"
+      ],
+      "subjects": [
+        "Estructuras y Construcciones civiles",
+        "Geotecnia"
+      ],
+      "researchLine": "Estructuras y Construcciones civiles",
+      "ods": [
+        "ODS 9 - Industria Innovación e Infraestructura",
+        "ODS 11 - Ciudades y comunidades sostenibles"
+      ],
+      "abstract": "La Casa de la Cultura de la Municipalidad de Villarrica del Espíritu Santo desarrolla actualmente sus actividades en instalaciones provisorias que no responden integralmente a los requerimientos académicos, culturales, funcionales y administrativos de la institución. Ante esta situación, el presente trabajo tuvo como objetivo elaborar el proyecto ejecutivo de una sede propia, implantada en un sector del Parque Manuel Ortiz Guerrero y organizada en dos bloques, considerando las necesidades funcionales y las características históricas, culturales y paisajísticas del entorno. La metodología comprendió el relevamiento de los requerimientos institucionales, estudios topográficos y geotécnicos, desarrollo arquitectónico, modelado y dimensionamiento estructural, diseño de instalaciones sanitarias y eléctricas, además de la elaboración del cómputo métrico y presupuesto referencial. El proyecto contempla una superficie aproximada de 3.805,01 m², incluyendo ambos bloques y una plaza de integración concebida como espacio de vinculación del conjunto. La cimentación se resolvió mediante pilotes perforados in situ, apoyados en el estrato resistente identificado mediante el estudio SPT, con diámetros de 0,40 m, 0,50 m y 0,60 m y capacidades admisibles de 18 t, 28 t y 40 t, respectivamente. La propuesta incorpora espacios especializados para música, danza, artes escénicas, taekwondo, exposiciones, biblioteca y administración, junto con criterios de accesibilidad, aislamiento acústico, prevención contra incendios e instalaciones acordes con las funciones previstas. El costo referencial total asciende a Gs. 9.335.818.804. Como resultado, se obtuvo una base técnica coordinada para la futura ejecución de una sede permanente, orientada a mejorar las condiciones de formación artística, gestión institucional y difusión cultural en Villarrica del Espíritu Santo y el departamento del Guairá.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/268",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/268/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:02:17Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/199",
       "datestamp": "2025-10-15T11:09:00Z",
       "handle": "123456789/199",
@@ -1204,6 +1312,61 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.443Z",
       "updatedAt": "2025-10-14T17:07:02Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/257",
+      "datestamp": "2026-10-20T11:19:25Z",
+      "handle": "123456789/257",
+      "title": "Desarrollo de un gemelo digital para la gestión y análisis de datos de operación de alimentadores de media tensión de la ANDE, Coronel Oviedo, año 2026",
+      "authors": [
+        "Girett Ramoa, Maria Gisselle",
+        "Coronel Ramoa, Julio César",
+        "Melgarejo Riveros, Víctor Manuel"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería Informática",
+      "community": "INGENIERIA INFORMATICA",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_3",
+        "col_123456789_4"
+      ],
+      "subjects": [
+        "Distribución de Energía Eléctrica",
+        "Ciencia de Datos",
+        "Ingeniería de Software"
+      ],
+      "researchLine": "Distribución de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente Trabajo Final de Grado tuvo como objetivo desarrollar un gemelo digital para la gestión y análisis de datos de operación de alimentadores de media tensión de la ANDE, Regional Coronel Oviedo, con el propósito de representar digitalmente la topología de la red, simular maniobras y facilitar el análisis de indicadores asociados a la continuidad del servicio. La metodología contempló el levantamiento de requerimientos mediante entrevistas técnicas, el modelado estructural de la red eléctrica a partir de datos exportados desde SQL Server y el desarrollo de una arquitectura cliente-servidor basada en Django, API REST y Flutter Web. El sistema incorporó un motor topológico capaz de recalcular dinámicamente el estado de energización de la red después de cada maniobra simulada, así como módulos para el cálculo de indicadores técnicos FEP y DEP y el registro de auditoría de las operaciones realizadas. Los resultados demostraron la viabilidad técnica de la solución, permitiendo representar la topología del alimentador, ejecutar maniobras controladas y generar métricas relacionadas con el desempeño y la continuidad del servicio. Asimismo, se evidenciaron características de coherencia estructural, modularidad y escalabilidad para su eventual aplicación en entornos institucionales. Desde las perspectivas técnica y económica, el proyecto demostró la factibilidad de utilizar tecnologías abiertas para la digitalización de infraestructura eléctrica, contribuyendo a la modernización de los procesos operativos y al fortalecimiento de la toma de decisiones basada en datos.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/257",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/257/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:19:25Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -2430,6 +2593,58 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/249",
+      "datestamp": "2026-10-20T11:35:32Z",
+      "handle": "123456789/249",
+      "title": "Análisis técnico-económico para la priorización de refuerzos de distribución – Asunción y Gran Asunción",
+      "authors": [
+        "Ramírez Diaz, Rosa Liz",
+        "Brítez Iglesia, Moisés"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Distribución de Energía Eléctrica"
+      ],
+      "researchLine": "Distribución de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "La red de distribución en media tensión de 23 kV de la Administración Nacional de Electricidad (ANDE) en Asunción y Gran Asunción presenta más de 1.500 puntos de distribución que requieren refuerzos de potencia, frente a una capacidad institucional de ejecución limitada y un crecimiento sostenido de la demanda. En este contexto, el presente trabajo propone un análisis técnico-económico orientado a priorizar los refuerzos más urgentes y cuantificar la inversión asociada. Para ello, se integraron tres fuentes de datos institucionales: pedidos de distribución pendientes, mediciones de cargabilidad de transformadores y registros de reclamos por averías. El proceso de depuración redujo 77.595 registros iniciales a 41.911 reclamos únicos, mientras que el procesamiento permitió establecer un ranking de 1.771 puntos de distribución pendientes o parciales y asociar geoespacialmente 18.623 reclamos a 1.406 puntos. Ante la ausencia de mediciones eléctricas directas para este universo, se mantuvo la formulación operativa del Índice de Prioridad Compuesto (IPC), basada en la presión de reclamos y la reincidencia, cuya pertinencia fue examinada mediante entrevistas documentadas, registros de reiteración y una validación estadística exploratoria independiente. Mediante K-Means se seleccionó K = 4, obteniéndose los grupos URGENTE (282), ALTO (153), MEDIO (992) y BAJO (344). Independientemente de esta segmentación, el umbral IPC ≥ P80 seleccionó 356 puntos para el análisis económico. La estimación financiera, basada en precios unitarios de la Licitación Pública Nacional LP 1984/25, determinó una inversión de entre USD 465.765 y USD 640.441, equivalentes a Gs. 3.656.258.604 y Gs. 5.027.458.984, respectivamente. Los resultados proporcionan una hoja de ruta cuantificada para apoyar la toma de decisiones institucionales orientada al período 2026–2027.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/249",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/249/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:35:32Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/229",
       "datestamp": "2025-12-30T11:49:53Z",
       "handle": "123456789/229",
@@ -2650,6 +2865,58 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/262",
+      "datestamp": "2026-10-20T11:12:09Z",
+      "handle": "123456789/262",
+      "title": "Elaboración del procedimiento para la puesta en servicio y mantenimiento del sistema de monitoreo de temperatura de transformadores 500/220/23 kV de la ES-VHA",
+      "authors": [
+        "Ramírez García, Alexis Hernán",
+        "Santacruz Portillo, Osvaldo Jesús"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Distribución de Energía Eléctrica"
+      ],
+      "researchLine": "Distribución de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente Trabajo Final de Grado tiene como objetivo elaborar un procedimiento técnico para la puesta en servicio y el mantenimiento del sistema de monitoreo de temperatura de transformadores de potencia de 500/220/23 kV, aplicado a la Estación Villa Hayes (ES-VHA), considerando la importancia del monitoreo térmico para preservar la vida útil de los equipos y prevenir fallas en el sistema eléctrico de potencia. Para ello, se realizó un relevamiento en campo mediante inspecciones físicas, revisión de documentación técnica y consultas con personal especializado, orientado a analizar las condiciones operativas de los transformadores, evaluar el estado de instalación del sistema de monitoreo e identificar las causas de las fallas recurrentes. Entre las principales deficiencias detectadas se encontraron lecturas inconsistentes, problemas de cableado, alarmas erróneas en la unidad de adquisición de datos (DAQ), fallas de comunicación con el sistema SCADA, ausencia de protocolos de verificación posteriores al mantenimiento y falta de un plan sistemático de mantenimiento preventivo. Como respuesta, se elaboró un procedimiento técnico estandarizado para la puesta en servicio y mantenimiento del sistema, acompañado de formatos tipo checklist que facilitan su aplicación y verificación. La propuesta contribuye a mejorar la confiabilidad del monitoreo térmico, fortalecer las condiciones de operación y mantenimiento de los transformadores y reducir riesgos asociados a fallas del sistema de supervisión. Asimismo, el procedimiento presenta posibilidades de aplicación en otras estaciones transformadoras con sistemas de monitoreo de características similares.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/262",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/262/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:12:09Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/77",
       "datestamp": "2025-10-15T13:19:33Z",
       "handle": "123456789/77",
@@ -2689,6 +2956,60 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.445Z",
       "updatedAt": "2025-10-15T13:19:33Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/261",
+      "datestamp": "2026-10-20T11:13:08Z",
+      "handle": "123456789/261",
+      "title": "Elaboración del proyecto ejecutivo de la instalación eléctrica de la futura sede de la Casa de la Cultura “Don Mario Halley Mora” ubicada en la ciudad de Coronel Oviedo",
+      "authors": [
+        "Jara Caballero, Cinthia Lorena",
+        "Casco Galeano, Carlos Aníbal"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Distribución de Energía Eléctrica",
+        "Ciencia y Tecnología para el Desarrollo Sostenible"
+      ],
+      "researchLine": "Distribución de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura",
+        "ODS 11 - Ciudades y comunidades sostenibles"
+      ],
+      "abstract": "El presente Trabajo Final de Grado desarrolla el proyecto ejecutivo de la instalación eléctrica de la futura sede de la Casa de la Cultura “Don Mario Halley Mora”, ubicada en la ciudad de Coronel Oviedo, con el propósito de establecer una solución eléctrica segura, confiable y adecuada a las características de la edificación. El proyecto contempla el diseño de la instalación eléctrica, incluyendo la distribución de circuitos y conductores, sistemas de iluminación, protecciones eléctricas, puesta a tierra y dispositivos de protección contra sobretensiones y descargas atmosféricas. Se dimensionó una malla de puesta a tierra considerando las características de resistividad del terreno y los criterios técnicos establecidos, además de un sistema de pararrayos tipo PDC. Para garantizar la continuidad del suministro ante interrupciones de la red eléctrica, se proyectó un grupo electrógeno diésel de 200 kVA, dimensionado de acuerdo con la carga global de la instalación. Asimismo, considerando un factor de potencia inicial de 0,85, se diseñó un banco automático de capacitores de 62,5 kVAr, compuesto por una etapa fija y etapas automáticas, destinado a mejorar el factor de potencia y reducir la demanda de potencia reactiva. El proyecto integra criterios de seguridad, confiabilidad, continuidad de servicio y cumplimiento normativo, obteniéndose como resultado un proyecto ejecutivo eléctrico técnicamente fundamentado y adaptado a las necesidades de la futura edificación. El presupuesto estimado para la ejecución de las instalaciones asciende a Gs. 844.699.185, constituyendo una base técnica para su posterior implementación.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/261",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/261/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:13:08Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -3305,7 +3626,7 @@
     },
     {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/218",
-      "datestamp": "2025-11-24T18:20:20Z",
+      "datestamp": "2026-09-23T11:24:49Z",
       "handle": "123456789/218",
       "title": "Diseño y construcción de un dron experimental de bajo costo para aplicaciones educativas",
       "authors": [
@@ -3336,7 +3657,7 @@
       "researchLine": "Sistemas Mecatrónicos",
       "ods": [
         "ODS 4 – Educación de Calidad",
-        "ODS 9 – Industria",
+        "ODS 9 - Industria Innovación e Infraestructura",
         "ODS 12 – Producción y Consumo Responsables"
       ],
       "abstract": "El proyecto desarrolla un dron experimental de bajo costo orientado al aprendizaje práctico y la investigación formativa en ingeniería, demostrando que es posible construir una plataforma aérea funcional utilizando materiales accesibles, reciclados y un presupuesto reducido, integrando conceptos de electrónica, control, comunicación inalámbrica y mecánica aplicada en un proceso completo que abarca selección de componentes, ensamblaje estructural, integración eléctrica, calibración y pruebas dinámicas. El prototipo corresponde a un cuadricóptero con configuración en “X”, equipado con cuatro motores DC, sistema de control remoto mediante señal RC y distribución de potencia por modulación PWM, alimentado por una batería de 7,4 V; las pruebas validaron un consumo aproximado de 3,8 A, una potencia cercana a 28 W, una autonomía real de 9 a 11 minutos y un empuje suficiente para mantener vuelo estacionario estable con un peso total de 610 g. Los resultados confirman la reproducibilidad del sistema en entornos educativos, su utilidad para entrenar competencias en diseño mecatrónico, análisis de eficiencia energética y comprensión de principios de vuelo, ofreciendo una alternativa económica que reduce más del 70% del costo respecto de kits comerciales sin comprometer objetivos pedagógicos. Este desarrollo constituye un ejemplo de innovación frugal con alto valor didáctico y establece una base técnica para futuras mejoras, como la incorporación de controladores con sensores inerciales, motores brushless o telemetría, consolidándose como una herramienta académica replicable y accesible para instituciones que buscan fortalecer capacidades tecnológicas.",
@@ -3347,7 +3668,7 @@
       "pdfName": null,
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.445Z",
-      "updatedAt": "2025-11-24T18:20:20Z",
+      "updatedAt": "2026-09-23T11:24:49Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -3515,6 +3836,59 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.445Z",
       "updatedAt": "2025-10-21T12:26:00Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/263",
+      "datestamp": "2026-10-20T11:11:16Z",
+      "handle": "123456789/263",
+      "title": "Propuesta de esquemas para la protección de barras de 23 kV en la Estación Capiatá de la ANDE",
+      "authors": [
+        "Páez Bogado, Jonathan",
+        "Aguilar Barrios, Jhonny Rodrigo",
+        "Vera Godoy, Agustín Junior"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Distribución de Energía Eléctrica"
+      ],
+      "researchLine": "Distribución de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente Trabajo Final de Grado propone esquemas para la protección de barras de 23 kV en la Estación Capiatá de la ANDE, con el propósito de mejorar la rapidez y selectividad de actuación ante fallas eléctricas y reducir los tiempos de disparo de los interruptores. La metodología comprendió una revisión bibliográfica y el análisis mediante simulaciones realizadas en ETAP, utilizando el módulo StarZ para evaluar la coordinación y el comportamiento de las protecciones ante fallas trifásicas y fase-tierra. El modelo incluyó dos transformadores de potencia trifásicos de 80 MVA, dos barras de 23 kV, 14 alimentadores de 23 kV, transformadores de servicios auxiliares, bancos de capacitores, transformadores de corriente y relés de protección ARTECHE PL 300 con sus respectivas funciones. Como propuesta, se estableció un esquema de disparo rápido mediante señales lógicas cableadas, logrando reducir los tiempos de actuación de 704,6 ms a 133 ms en 23 kV y de 1341 ms a 161 ms en 220 kV para barras desacopladas; mientras que, para barras acopladas, los tiempos se redujeron de 1103 ms a 133 ms en 23 kV y de 2121 ms a 161 ms en 220 kV. Las simulaciones permitieron comprobar la selectividad del esquema ante fallas trifásicas y fase-tierra, tanto con las barras A y B acopladas como desacopladas. Finalmente, se elaboró un presupuesto de implementación de la propuesta por Gs. 42.738.180, evidenciándose una alternativa técnicamente viable para mejorar el desempeño de la protección de barras de 23 kV.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/263",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/263/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:11:16Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -4021,6 +4395,58 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/260",
+      "datestamp": "2026-09-26T13:27:49Z",
+      "handle": "123456789/260",
+      "title": "Modernización del módulo de recibos de dinero del Sistema de Gestión Académica para la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, año 2025",
+      "authors": [
+        "Varela Acosta, Pablo Ezequiel",
+        "Melgarejo Riveros, Víctor Manuel",
+        "Solís Silberth, Gustavo Enrique"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería Informática",
+      "community": "INGENIERIA INFORMATICA",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_3",
+        "col_123456789_4"
+      ],
+      "subjects": [
+        "Ingeniería de Software"
+      ],
+      "researchLine": "Ingeniería de Software",
+      "ods": [
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente Proyecto Final de Grado tuvo como objetivo modernizar el módulo de recibos de dinero del Sistema de Gestión Académica de la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, como parte del proceso de actualización tecnológica de una plataforma institucional heredada. Durante la etapa de análisis se realizaron entrevistas al personal del área de Caja y del Departamento de Informática, complementadas con el análisis documental del sistema existente, lo que permitió identificar limitaciones relacionadas con la arquitectura tecnológica, la interfaz de usuario, la mantenibilidad del código y la generación de informes administrativos. La solución se desarrolló mediante una arquitectura cliente-servidor desacoplada, utilizando Django y Django REST Framework para el backend, React con TypeScript para el frontend y PostgreSQL para la gestión de la base de datos. Asimismo, se incorporaron validaciones de reglas de negocio, mecanismos de auditoría, generación de comprobantes en formato PDF y funcionalidades para la emisión, modificación, anulación y consulta de recibos. Los resultados evidenciaron una optimización de los procesos administrativos del área de Caja, reducción de errores operativos, fortalecimiento de la trazabilidad de las operaciones y mejoras en la generación de informes diarios. La validación mediante encuestas mostró una percepción favorable de los usuarios, evidenciando que la solución responde a las necesidades operativas identificadas y proporciona una base tecnológica moderna, mantenible y preparada para futuras ampliaciones.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/260",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/260/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-09-26T13:27:49Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/98",
       "datestamp": "2025-10-15T17:05:03Z",
       "handle": "123456789/98",
@@ -4282,6 +4708,60 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.445Z",
       "updatedAt": "2025-10-20T11:56:44Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/258",
+      "datestamp": "2026-10-20T11:18:09Z",
+      "handle": "123456789/258",
+      "title": "Proyecto ejecutivo de rehabilitación integral del Estadio Boquerón de la ciudad de Bella Vista Norte – Dpto. de Amambay",
+      "authors": [
+        "Fernández Barboza, Diego Arnaldo",
+        "Penayo Portillo, Esteban Arnaldo",
+        "Samudio Rodríguez, Darío Arnaldo"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería Informática",
+      "community": "INGENIERIA INFORMATICA",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_3",
+        "col_123456789_4"
+      ],
+      "subjects": [
+        "Estructuras y Construcciones civiles",
+        "Ingeniería estructural mecánica y materiales"
+      ],
+      "researchLine": "Estructuras y Construcciones civiles",
+      "ods": [
+        "ODS 9 - Industria Innovación e Infraestructura",
+        "ODS 11 - Ciudades y comunidades sostenibles"
+      ],
+      "abstract": "El presente Proyecto Final de Grado desarrolla el Proyecto Ejecutivo de Rehabilitación Integral del Estadio Boquerón, ubicado en la ciudad de Bella Vista Norte, departamento de Amambay, con el propósito de plantear una solución técnica para la renovación de la infraestructura destinada a la práctica del fútbol y a la realización de competencias organizadas por la Liga Bellavisteña de Fútbol. Como parte del estudio, se realizó una evaluación de las condiciones actuales de la infraestructura, considerando aspectos funcionales, estructurales y de seguridad, determinándose que las instalaciones existentes no satisfacen las exigencias técnicas y normativas vigentes. En respuesta a esta situación, se propone la sustitución integral de las edificaciones existentes, manteniendo el carácter deportivo del predio. El proyecto comprende estudios topográficos y geotécnicos, diseño arquitectónico y estructural, instalaciones sanitarias, sistemas de desagüe cloacal y pluvial, protección contra incendios, drenaje y riego de la cancha, además del cómputo métrico y presupuesto general de la obra. Cada componente fue desarrollado bajo criterios de funcionalidad, seguridad, durabilidad y cumplimiento de las normativas técnicas aplicables. La propuesta constituye una herramienta técnica para orientar la futura ejecución de la obra y busca dotar a Bella Vista Norte de una infraestructura deportiva moderna y adecuada para actividades deportivas, recreativas y sociales, contribuyendo al fortalecimiento de la infraestructura urbana y al desarrollo de la comunidad.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/258",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/258/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:18:09Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -5286,6 +5766,57 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/254",
+      "datestamp": "2026-10-20T11:28:47Z",
+      "handle": "123456789/254",
+      "title": "Propuesta de diseño de un collar inteligente para el control y monitoreo de ganado en el establecimiento “Rancho Alegre” del distrito de Santa Rosa del Mbutuy",
+      "authors": [
+        "Britos Cabello, Noelia Belén",
+        "Fernández Gómez, Federico Rodolfo"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería Electrónica",
+      "community": "INGENIERIA ELECTRONICA",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_7",
+        "col_123456789_8"
+      ],
+      "subjects": [
+        "Comunicaciones Industriales"
+      ],
+      "researchLine": "Comunicaciones Industriales",
+      "ods": [
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente trabajo propone el diseño de un sistema de monitoreo de ganado bovino para el establecimiento “Rancho Alegre”, ubicado en la comunidad Nati’Ury Mi, distrito de Santa Rosa del Mbutuy, departamento de Caaguazú. La propuesta surge ante las dificultades de vigilancia, localización y seguimiento del ganado en un entorno rural, como apoyo a la detección y respuesta ante posibles pérdidas o sustracción de animales. El sistema se plantea mediante una arquitectura IoT modular integrada por un microcontrolador ESP32-E16, un receptor GPS Neo-6M y un transceptor LoRa, conectado a una gateway LoRaWAN RAK7289V2 WisGate Edge Pro y a The Things Network, mientras que la visualización se plantea mediante una aplicación móvil desarrollada en React Native. El nodo incorpora dos baterías 18650 de 2500 mAh en configuración 2S, sistemas de protección, gestión de carga y balanceo, supervisión térmica y regulación a 3,3 V. El diseño establece parámetros de operación como una actualización nominal cada 60 segundos, capacidad de hasta 30 dispositivos, dimensiones de 90 × 65 × 38 mm, peso máximo de 320 g y protección IP67, además de un análisis de cobertura mediante presupuesto de enlace y un presupuesto energético para escenarios típico y de peor caso, considerando los estados de operación y deep-sleep. La metodología comprende el levantamiento de requerimientos, selección tecnológica, diseño electrónico y físico, definición del flujo de comunicación, programación, seguridad informática y análisis técnico-económico. Los resultados corresponden a una propuesta de ingeniería y no a un prototipo implementado o validado experimentalmente.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/254",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/254/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:28:47Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/191",
       "datestamp": "2025-10-14T17:37:39Z",
       "handle": "123456789/191",
@@ -5725,6 +6256,57 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/259",
+      "datestamp": "2026-10-20T11:17:10Z",
+      "handle": "123456789/259",
+      "title": "Desarrollo de un sistema web para la gestión de documentos eclesiásticos de la Parroquia Cristo Redentor de Coronel Oviedo, año 2025",
+      "authors": [
+        "Bogado Varela, Rodrigo Javier",
+        "Melgarejo Riveros, Víctor Manuel"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería Informática",
+      "community": "INGENIERIA INFORMATICA",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_3",
+        "col_123456789_4"
+      ],
+      "subjects": [
+        "Ingeniería de Software"
+      ],
+      "researchLine": "Ingeniería de Software",
+      "ods": [
+        "ODS 16 - Paz justicia e instituciones sólidas"
+      ],
+      "abstract": "El presente Proyecto Final de Grado tiene como objetivo desarrollar un sistema web para la gestión de documentos eclesiásticos de la Parroquia Cristo Redentor de Coronel Oviedo, como respuesta a las limitaciones del registro manual en libros físicos, que dificultan la localización de información y generan riesgos asociados al deterioro o pérdida de documentos históricos. La investigación adoptó un enfoque cualitativo, con diseño no experimental y de tipo aplicado. Para el relevamiento de requerimientos se realizaron entrevistas al secretario general, observación directa de los procedimientos de la secretaría parroquial y revisión de la estructura de los libros sacramentales. El sistema fue desarrollado mediante herramientas de software libre y código abierto, integrando PHP, PhpMyAdmin, Apache, Bootstrap y JavaScript, además de Google Drive para el almacenamiento en la nube. La solución incorpora los módulos de Gestión de Laicos, Gestión Sacramental y Gestión de Expedición de Certificados, permitiendo centralizar la información, generar reportes del historial sacramental y de los certificados expedidos, y controlar el acceso mediante roles. Los resultados evidencian mejoras en los tiempos de búsqueda y respuesta, reducción de errores manuales de transcripción y mayor agilidad en la atención al ciudadano. Asimismo, el almacenamiento digital y los mecanismos de acceso controlado contribuyen a la preservación de la documentación y de la memoria histórica de la institución. El proyecto aporta una solución tecnológica orientada a fortalecer la gestión documental y se vincula con el ODS 16, promoviendo instituciones sólidas y la preservación de información histórica.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/259",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/259/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:17:10Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/114",
       "datestamp": "2025-10-20T14:30:41Z",
       "handle": "123456789/114",
@@ -5764,6 +6346,59 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.529Z",
       "updatedAt": "2025-10-20T14:30:41Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/265",
+      "datestamp": "2026-10-20T11:09:07Z",
+      "handle": "123456789/265",
+      "title": "Propuesta de procedimiento de pruebas de aceptación en sitio aplicado a interruptores de potencia de 220 kV de la ANDE",
+      "authors": [
+        "Ramirez García, Rodrigo Rafael",
+        "Santacruz Portillo, Osvaldo Jesús"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "ransmisión de Energía Eléctrica",
+        "Generación de energía eléctrica"
+      ],
+      "researchLine": "ransmisión de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente trabajo desarrolla una propuesta de procedimiento de pruebas eléctricas de aceptación en sitio para interruptores de potencia aislados en gas SF₆, con un nivel de tensión de 220 kV, conforme a las directrices establecidas por la norma ANSI/NETA ATS 2017. El objetivo es establecer un método técnico y estandarizado que permita verificar la correcta operación, seguridad y confiabilidad de estos equipos antes de su puesta en servicio. Para su elaboración se realizó un estudio de las normas internacionales aplicables a las pruebas eléctricas de interruptores de potencia, determinándose que la ANSI/NETA ATS 2017 proporciona el marco de referencia más adecuado para sustentar el procedimiento propuesto. Asimismo, se identificaron parámetros técnicos y operativos relevantes, entre ellos la resistencia de los contactos principales, los tiempos de apertura y cierre, los circuitos auxiliares, la estanqueidad y los sistemas de enclavamiento. Con base en estos criterios, se diseñó un procedimiento que establece los ensayos a realizar, los datos que deben recopilarse, las condiciones de medición y los criterios de aceptación de los resultados. El documento incorpora además tablas de registro, valores de referencia y lineamientos para la evaluación de los resultados obtenidos en campo. La aplicación del procedimiento propuesto constituye una herramienta técnica para contribuir a la seguridad operativa, eficiencia y confiabilidad de los sistemas eléctricos de alta tensión, así como al mantenimiento preventivo y predictivo de los interruptores de potencia en gas SF₆.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/265",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/265/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:09:07Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -6097,6 +6732,58 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.529Z",
       "updatedAt": "2025-10-20T14:23:31Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/267",
+      "datestamp": "2026-10-20T11:05:40Z",
+      "handle": "123456789/267",
+      "title": "Diseño e implementación de una máquina CNC láser para el desarrollo de circuitos impresos (PCB)",
+      "authors": [
+        "Cartamán Filártiga, Gustavo Manuel",
+        "Arredondo Onieva, Derlis Rodrigo"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería Electrónica",
+      "community": "INGENIERIA ELECTRONICA",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_7",
+        "col_123456789_8"
+      ],
+      "subjects": [
+        "Sistemas Mecatrónicos"
+      ],
+      "researchLine": "Sistemas Mecatrónicos",
+      "ods": [
+        "ODS 9 - Industria Innovación e Infraestructura",
+        "ODS 4 - Educación de calidad"
+      ],
+      "abstract": "El desarrollo de circuitos impresos (PCB) constituye una etapa fundamental en la formación práctica de estudiantes y profesionales del área de la electrónica. Los métodos tradicionales de fabricación requieren procesos manuales que demandan tiempo y precisión, además del uso de productos químicos para el grabado de las pistas conductoras. En este contexto, el presente trabajo tuvo como objetivo diseñar e implementar una máquina CNC láser destinada a apoyar el proceso de elaboración de circuitos impresos en el Laboratorio de Electrónica de la Facultad de Ciencias y Tecnologías (FCyT), contribuyendo al fortalecimiento de las capacidades prácticas y formativas de los estudiantes. Para el desarrollo del proyecto se establecieron las especificaciones técnicas del sistema, considerando los requerimientos de precisión, área de trabajo y compatibilidad con la fabricación de PCB. Posteriormente, se seleccionaron el diodo láser, los componentes mecánicos y electrónicos y el software de control necesarios para integrar y operar la máquina. Durante las pruebas experimentales se evaluó inicialmente la capacidad del láser para remover directamente el cobre de las placas PCB; sin embargo, la potencia disponible no resultó suficiente para realizar esta tarea de manera eficiente. Por ello, se implementó una metodología alternativa basada en la aplicación de una capa de pintura sobre la placa, cuya remoción selectiva mediante el láser permitió generar la máscara para el posterior ataque químico del cobre expuesto. Las pruebas de calibración y validación permitieron comprobar la viabilidad del sistema para generar máscaras de grabado con precisión, constituyendo una alternativa de bajo costo para fortalecer las actividades de prototipado electrónico en el Laboratorio de Electrónica de la FCyT.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/267",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/267/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:05:40Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -6556,6 +7243,62 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/251",
+      "datestamp": "2026-10-20T11:33:30Z",
+      "handle": "123456789/251",
+      "title": "Desarrollo de un sistema de iluminación vial para el cruce Karumbey del distrito de Corpus Christi, departamento de Canindeyú, integrando soluciones tecnológicas que garanticen la estabilidad energética y operativa",
+      "authors": [
+        "González Rivas, Natalia Andrea",
+        "González Rodríguez, Pedro Pastor David",
+        "López Gauto, Jonhatan Alberto"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Distribución de Energía Eléctrica",
+        "Control y Automatización Industrial",
+        "Tecnologías de Energías Renovables"
+      ],
+      "researchLine": "Distribución de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura",
+        "ODS 11 - Ciudades y comunidades sostenibles"
+      ],
+      "abstract": "El presente proyecto de fin de grado se centra en el desarrollo de un proyecto ejecutivo de iluminación vial para los tramos de las rutas PY03 y PY07, con especial atención al cruce Karumbey, distrito de Corpus Christi, departamento de Canindeyú, donde la ausencia de alumbrado público y el elevado flujo vehicular generan condiciones desfavorables para la seguridad vial y operativa durante horarios nocturnos. La propuesta surge a partir de una solicitud formal de la Municipalidad de Corpus Christi. Para el desarrollo del proyecto se realizó un relevamiento de datos en campo, análisis topográfico mediante QGIS, modelado en AutoCAD y simulaciones en DIALux evo, considerando las normativas técnicas aplicables. Asimismo, se diseñó un sistema de automatización basado en sensores y PLC para regular el flujo luminoso según las condiciones de tránsito y del entorno, con el propósito de optimizar el consumo energético y mejorar la operación del sistema. Se evaluaron cuatro alternativas mediante un análisis multicriterio basado en el método AHP: iluminación LED sin automatismo, iluminación LED con automatismo, iluminación fotovoltaica sin automatismo e iluminación fotovoltaica con automatismo. Los resultados identificaron como alternativas de mejor desempeño al sistema fotovoltaico con automatismo, con una valoración de 4,50, y al sistema LED con automatismo, con 4,28. Ambas alternativas fueron consideradas técnicamente viables, quedando la selección definitiva sujeta a la disponibilidad presupuestaria. Los presupuestos estimados ascienden a Gs. 2.484.591.900 para el sistema fotovoltaico con automatismo y Gs. 1.527.086.400 para el sistema LED con automatismo.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/251",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/251/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:33:30Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/228",
       "datestamp": "2025-12-30T11:49:46Z",
       "handle": "123456789/228",
@@ -6904,6 +7647,59 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/266",
+      "datestamp": "2026-10-20T11:07:57Z",
+      "handle": "123456789/266",
+      "title": "Propuesta de alternativas técnicas para el mejoramiento del perfil de tensión del alimentador CZA-02 de la Subestación Caazapá",
+      "authors": [
+        "Leiva Irala, Liz Romina",
+        "Vera Salinas, Gissela Arami",
+        "Moreno Sosa, Alfredo Gustavo"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Distribución de Energía Eléctrica"
+      ],
+      "researchLine": "Distribución de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente proyecto de fin de grado aborda el estudio y análisis del alimentador CZA-02 de la Subestación Caazapá (SE-CZA), con el propósito de evaluar su comportamiento operativo y proponer alternativas técnicas orientadas al mejoramiento del perfil de tensión y al balance de cargas en la red de distribución de Media Tensión (23 kV). El trabajo responde a la necesidad de garantizar un suministro eléctrico confiable y eficiente, conforme a los parámetros establecidos en la normativa vigente, considerando el crecimiento de la demanda y las restricciones actuales del sistema. Para el análisis se recopilaron datos de campo, se construyó el modelo eléctrico del alimentador y se realizaron simulaciones mediante el software CYMDIST bajo diferentes escenarios de carga. Los resultados evidenciaron niveles de tensión inferiores a los límites establecidos en el Reglamento de Media Tensión de la ANDE, un desequilibrio de tensión de hasta 5,44 % y pérdidas técnicas asociadas principalmente a la longitud del alimentador y a la distribución irregular de cargas monofásicas. Asimismo, se identificaron tramos críticos donde la tensión desciende por debajo de 0,85 p.u. durante condiciones de máxima demanda. A partir del diagnóstico se evaluaron alternativas que incluyen la instalación y reubicación de reguladores de tensión, el refaseo de cargas y la trifasicación de tramos monofásicos. Las simulaciones muestran que la aplicación combinada de estas medidas, junto con la incorporación de nuevos compensadores, permite mejorar el perfil de tensión hasta en un 11 % en los tramos críticos. Finalmente, se elaboró el presupuesto correspondiente a la propuesta de solución, determinándose que las medidas analizadas constituyen una alternativa técnicamente viable para el mejoramiento del alimentador.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/266",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/266/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:07:57Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/54",
       "datestamp": "2025-10-14T17:13:17Z",
       "handle": "123456789/54",
@@ -6944,6 +7740,59 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.529Z",
       "updatedAt": "2025-10-14T17:13:17Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/270",
+      "datestamp": "2026-10-20T10:52:07Z",
+      "handle": "123456789/270",
+      "title": "Propuesta de alternativa para mejorar los indicadores de calidad del servicio del alimentador CYO-01 en media tensión, de la Estación CYO",
+      "authors": [
+        "Villar Martínez, Iván",
+        "Aguilar Barrios, Jhonny Rodrigo"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Technical Report",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Distribución de Energía Eléctrica",
+        "Innovación e Infraestructura"
+      ],
+      "researchLine": "Distribución de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria"
+      ],
+      "abstract": "El presente proyecto final de grado propone alternativas técnicas para mejorar los indicadores de calidad del servicio y estabilizar el perfil de tensión del alimentador rural de media tensión CYO-01, de 23 kV, perteneciente a la Estación CYO de Carayaó. El objetivo principal fue mitigar la elevada frecuencia de desconexiones intempestivas en la subestación cabecera y corregir las caídas críticas de tensión mediante la optimización de la infraestructura existente. La metodología, de enfoque cuantitativo, comprendió el diagnóstico operativo a partir de registros SCADA correspondientes al año 2024, el diseño de mejoras topológicas, la validación del modelo mediante el software CYME y el análisis de factibilidad económica y financiera. El diagnóstico identificó deficiencias de selectividad y una elevada incidencia de fallas asociadas a causas desconocidas y vegetación, que contribuyeron a un DEP de 10,34 horas/año. Como resultado, se propuso la instalación de un Banco Regulador de Tensión de 100 A, un esquema de protección en cascada para los Equipos de Transferencia y Control y un plan de mantenimiento georreferenciado sobre 26 puntos críticos. Las alternativas propuestas permiten mantener la tensión dentro de la banda regulatoria de ±5%, reducir el FEP a 11,4 veces anuales y el DEP a 4,65 horas anuales, alcanzando una disponibilidad estimada del 99,53%. La inversión requerida asciende a Gs. 473.902.000, con una TIR del 12,4% y un periodo de recuperación de 71 meses operativos.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/270",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/270/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T10:52:07Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -7757,6 +8606,60 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/264",
+      "datestamp": "2026-10-20T11:10:08Z",
+      "handle": "123456789/264",
+      "title": "Propuesta de alternativas de autogeneración de energía eléctrica para alimentar el nuevo tren de molienda de la Planta Industrial Mauricio José Troche de PETROPAR",
+      "authors": [
+        "Melgarejo Quiñonez, Nelson Gustavo",
+        "González Rodríguez, Pedro Pastor David"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Generación de energía eléctrica",
+        "Tecnologías de Energías Renovables"
+      ],
+      "researchLine": "Generación de energía eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura",
+        "ODS 13 - Acción por el clima"
+      ],
+      "abstract": "La Planta Industrial de PETROPAR, ubicada en la ciudad de Mauricio José Troche, departamento del Guairá, cuenta con un predio de 150 hectáreas y tiene como actividad principal la producción de etanol a partir de caña de azúcar, destinado posteriormente a la mezcla con las naftas comercializadas por PETROPAR. El elevado consumo de energía eléctrica representa un componente significativo de los costos de producción, con un promedio de 437.000.000 Gs. mensuales. A esta situación se suma la instalación de un nuevo tren de molienda con accionamiento eléctrico de 7,5 MW, lo que genera la necesidad de incrementar la capacidad de generación eléctrica en 8,5 MW adicionales, con el objetivo de alcanzar la independencia energética respecto de la ANDE. En este trabajo se analizan tres alternativas de autogeneración eléctrica: generación fotovoltaica, generación a biomasa y generación a biogás. Para su evaluación se consideran los recursos energéticos disponibles, el área requerida para su implementación, los costos asociados y el impacto ambiental. Las alternativas analizadas utilizan recursos naturales renovables. Los resultados determinan que la alternativa económicamente más conveniente es la generación mediante la combustión del bagazo de caña de azúcar, utilizando dos turbogeneradores a vapor, uno de 1,5 MW y otro de 8,5 MW. En consecuencia, se propone repotenciar la capacidad de cogeneración de la planta mediante la adquisición de un nuevo turbogenerador de 8,5 MW, 13,8 kV y 50 Hz, con un costo estimado de USD 3.470.167. Su implementación permitiría alcanzar la autosuficiencia eléctrica de la Planta Industrial.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/264",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/264/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:10:08Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/140",
       "datestamp": "2025-10-17T13:55:57Z",
       "handle": "123456789/140",
@@ -7920,12 +8823,12 @@
     },
     {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/68",
-      "datestamp": "2025-10-15T11:52:02Z",
+      "datestamp": "2026-09-26T14:29:38Z",
       "handle": "123456789/68",
       "title": "Diseño de un Laboratorio para Práctica de Sistemas de Protecciones Eléctricas de Potencia Basado en Dispositivos Programables Utilizados en Subestaciones de Alta Tensión para la FCyT de la UNCA",
       "authors": [
         "González Rolón, Juan Paolo",
-        "Dure Cabañas, Alex Ismael"
+        "Duré Cabañas, Alex Ismael"
       ],
       "advisors": [],
       "dateIssued": "2022-10",
@@ -7957,7 +8860,7 @@
       "pdfName": null,
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.529Z",
-      "updatedAt": "2025-10-15T11:52:02Z",
+      "updatedAt": "2026-09-26T14:29:38Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -8351,6 +9254,59 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.529Z",
       "updatedAt": "2025-10-21T13:14:33Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/253",
+      "datestamp": "2026-10-20T11:29:43Z",
+      "handle": "123456789/253",
+      "title": "Propuesta de automatización de las fases de corte y doblado en la fabricación de gabinetes eléctricos en la empresa Frantec Ingeniería ubicada en la ciudad de Coronel Oviedo",
+      "authors": [
+        "Barrios Chaparro, Guillermo Iván",
+        "Vargas Parra, Edgar Bacilio"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería Electrónica",
+      "community": "INGENIERIA ELECTRONICA",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_7",
+        "col_123456789_8"
+      ],
+      "subjects": [
+        "Control y Automatización Industrial",
+        "Sistemas Mecatrónicos"
+      ],
+      "researchLine": "Control y Automatización Industrial",
+      "ods": [
+        "ODS 8 - Trabajo decente y crecimiento económico",
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente trabajo tuvo como objetivo diseñar una propuesta de automatización para las fases de corte y doblado de chapas en la fabricación de gabinetes eléctricos de la empresa Frantec Ingeniería, ubicada en la ciudad de Coronel Oviedo, departamento de Caaguazú. El proceso actual se desarrolla de forma manual, generando baja eficiencia, imprecisiones dimensionales y riesgos laborales, identificándose el trazado y corte manual como el principal cuello de botella, con aproximadamente el 60 % del tiempo total de producción. La metodología corresponde a una investigación aplicada con enfoque tecnológico y contempla el diseño de dos subsistemas complementarios: una cortadora láser CNC controlada mediante Arduino UNO con firmware GRBL y una dobladora hidráulica semiautomática gobernada por un PLC LOGO! 8 Siemens. Las alternativas tecnológicas fueron evaluadas mediante matrices multicriterio, considerando principalmente la relación entre costo, precisión y disponibilidad regional. El diseño establece como especificaciones teóricas una precisión de ±0,1 mm en el corte y una repetibilidad de ±1° en el doblado, valores que deberán verificarse experimentalmente durante la implementación. Los cálculos determinaron una fuerza de doblado de 30 toneladas para chapas de 2 mm, dimensionándose el sistema hidráulico para 40 toneladas. El diseño considera las normas ISO 12100, IEC 60825-1 y NFPA 79/IEC 60204-1. El análisis económico, basado en una inversión estimada de ₲ 74.370.000, proyectó una TIR del 42 %, un VAN de ₲ 53.151.332 al quinto año y recuperación de la inversión durante el tercer año de operación. Se concluye que la propuesta presenta viabilidad técnica y financiera, con una capacidad productiva proyectada de 80 a 120 gabinetes mensuales y mejoras esperadas en la seguridad operativa.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/253",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/253/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:29:43Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -8765,6 +9721,58 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.529Z",
       "updatedAt": "2025-12-30T11:49:19Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/269",
+      "datestamp": "2026-10-20T11:03:39Z",
+      "handle": "123456789/269",
+      "title": "Propuesta de alternativa de configuración de barras de la ES-COV de la ANDE para mejorar la flexibilidad operativa de los equipos de maniobras",
+      "authors": [
+        "Hidalgo Ortellado, Carmen Beatriz",
+        "Duré Cabañas, Alex Ismael"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Technical Report",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Transmisión de Energía Eléctrica"
+      ],
+      "researchLine": "Transmisión de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente trabajo analiza una alternativa de configuración de barras para la Estación de Coronel Oviedo (ES-COV) de la ANDE, con el propósito de mejorar la flexibilidad operativa y la seguridad del sistema eléctrico. La estación, ubicada en Coronel Oviedo, departamento de Caaguazú, forma parte del Sistema de Transmisión Centro y opera a 220 kV. La configuración actual, compuesta por doble barra principal y barra de transferencia, se encuentra incompleta debido a que dispone de una sola posición para acoplamiento y transferencia, siendo esta última posible únicamente desde la Barra 2. Esta condición genera dificultades operativas, entre ellas tiempos elevados para el traspaso total de cargas y limitaciones para implementar las protecciones de falla de interruptor (50BF) y diferencial de barras (87B). La metodología aplicada fue de carácter descriptivo y propositivo e incluyó revisión documental, relevamiento de campo, análisis de alternativas y desarrollo de la propuesta técnica. Se planteó reutilizar la posición correspondiente al banco de reactores, actualmente fuera de servicio, como una nueva posición de acoplamiento, además de modificar la posición existente para que opere exclusivamente como transferencia completa. Los cálculos de verificación determinaron una corriente de cortocircuito de 31,5 kA, inferior a la capacidad de 40 kA, así como el cumplimiento de las distancias de seguridad establecidas en IEC 61936-1 y una capacidad de corriente adecuada para las condiciones actuales y la proyección a cinco años. El presupuesto estimado asciende a USD 688.400. La propuesta permitiría completar la configuración de barras, habilitar la operación simultánea de ambas barras e implementar las protecciones 50BF y 87B.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/269",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/269/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:03:39Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -9608,6 +10616,59 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/255",
+      "datestamp": "2026-10-20T11:21:33Z",
+      "handle": "123456789/255",
+      "title": "Modelo de aprendizaje automático para alertas tempranas de rendimiento académico insuficiente en la Facultad de Ciencias y Tecnologías (UNCA), 2025",
+      "authors": [
+        "Lesme Mendoza, Shirley Lujan",
+        "Fleitas Gadea, Mariza",
+        "Melgarejo Riveros, Víctor Manuel",
+        "Vázquez Cáceres, Luz Melina"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería Informática",
+      "community": "INGENIERIA INFORMATICA",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_3",
+        "col_123456789_4"
+      ],
+      "subjects": [
+        "Ciencia de Datos"
+      ],
+      "researchLine": "Ciencia de Datos",
+      "ods": [
+        "ODS 4 - Educación de calidad"
+      ],
+      "abstract": "El rendimiento académico insuficiente y la deserción estudiantil representan problemáticas críticas en la educación superior que afectan la permanencia institucional. Esta investigación tuvo como objetivo desarrollar un modelo de aprendizaje automático para la detección temprana de estudiantes con riesgo de rendimiento académico insuficiente en la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú (UNCA). A partir de la integración de registros históricos institucionales del período 2015–2025, se construyó un conjunto de datos estructurado a nivel estudiante-semestre que incorporó variables clave como materias reprobadas, avance curricular, prerrequisitos pendientes y desempeño académico histórico. Se entrenaron y evaluaron modelos de clasificación supervisada, específicamente Regresión Logística, Random Forest y Árbol de Decisión, priorizando la sensibilidad (Recall) para garantizar una alta tasa de detección de casos de riesgo. Los resultados demostraron que el modelo de Árbol de Decisión obtuvo el mejor desempeño, alcanzando aproximadamente un 98% de sensibilidad. Finalmente, con el fin de facilitar la aplicación práctica de los resultados y apoyar las estrategias institucionales de seguimiento académico y toma de decisiones preventivas, el modelo seleccionado fue integrado en una herramienta web interactiva desarrollada mediante Streamlit, Python y MongoDB.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/255",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/255/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:21:33Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/17",
       "datestamp": "2025-10-14T17:46:22Z",
       "handle": "123456789/17",
@@ -9721,7 +10782,7 @@
     },
     {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/247",
-      "datestamp": "2026-04-13T12:42:13Z",
+      "datestamp": "2026-10-20T11:37:11Z",
       "handle": "123456789/247",
       "title": "Proyecto de sustitución de líneas eléctricas de distribución aérea desnuda de media tensión por líneas eléctricas de distribución aérea protegida de la ciudad de Coronel Oviedo",
       "authors": [
@@ -9760,7 +10821,7 @@
       "pdfName": null,
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.530Z",
-      "updatedAt": "2026-04-13T12:42:13Z",
+      "updatedAt": "2026-10-20T11:37:11Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -10158,12 +11219,12 @@
     },
     {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/230",
-      "datestamp": "2025-12-30T11:50:01Z",
+      "datestamp": "2026-09-23T11:15:29Z",
       "handle": "123456789/230",
       "title": "Elaboración del proyecto ejecutivo de la instalación eléctrica del futuro Mercado Municipal en el barrio San Lorenzo, de la ciudad de Caaguazú",
       "authors": [
         "Báez, Tomás Ariel",
-        "González Rodríguez, Pedro Pastor"
+        "González Rodríguez, Pedro Pastor David"
       ],
       "advisors": [],
       "dateIssued": "2025-12",
@@ -10197,7 +11258,7 @@
       "pdfName": null,
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.530Z",
-      "updatedAt": "2025-12-30T11:50:01Z",
+      "updatedAt": "2026-09-23T11:15:29Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -10253,6 +11314,59 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.530Z",
       "updatedAt": "2025-10-14T14:34:27Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/250",
+      "datestamp": "2026-10-20T11:34:41Z",
+      "handle": "123456789/250",
+      "title": "Propuesta de una metodología técnico-económica para la modernización selectiva de alimentadores rurales. Caso de estudio: CZA-05",
+      "authors": [
+        "Britez Escurra, Omar Gabriel",
+        "Martínez Godoy, Juan Jesús",
+        "Aguilar Barrios, Jhonny Rodrigo"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Distribución de Energía Eléctrica"
+      ],
+      "researchLine": "Distribución de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente Proyecto Final de Grado propone una metodología técnico-económica para la modernización selectiva de alimentadores rurales, aplicada al alimentador CZA-05 de la Administración Nacional de Electricidad (ANDE), ubicado en el departamento de Caazapá. La metodología integra la caracterización operativa del circuito, la segmentación geográfica según exposición a la vegetación, accesibilidad vial y criticidad operativa, la simulación eléctrica mediante CYMDIST, la evaluación mecánica de alternativas y un análisis económico multicriterio. El diagnóstico correspondiente al ciclo 2024 evidenció una red extensa, con valores de Frecuencia Equivalente de Potencia Interrumpida (FEP) de 8,03 y Duración Equivalente de Potencia Interrumpida (DEP) de 9,09 h, además de 180 novedades operativas y pérdidas técnicas de 1.450,36 kW en la condición de máxima demanda analizada. La alternativa basada en conductor protegido Tree Wire 4/0 AWG redujo las pérdidas técnicas a 1.040,58 kW, equivalente a una disminución aproximada del 28,3 % respecto del escenario base. El nuevo perfil de tensión presentó mínimos locales cercanos a 21,9 kV, equivalentes aproximadamente al 95,2 % de la tensión nominal de 23 kV, mientras que en el nodo terminal la menor tensión correspondió a la fase C, con 22,236 kV. La propuesta contempla 57,2 km de intervención con Tree Wire y una variante vial de 12,7 km, con un presupuesto conceptual de ₲ 25.051.200.000 y un ahorro de CAPEX de ₲ 11.017.200.000 frente a una referencia de red compacta masiva. Bajo las hipótesis financieras adoptadas, la conveniencia económica se sustenta principalmente en el criterio de costo-efectividad.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/250",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/250/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:34:41Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -10705,7 +11819,7 @@
     },
     {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/113",
-      "datestamp": "2025-10-14T17:25:55Z",
+      "datestamp": "2026-09-22T14:20:38Z",
       "handle": "123456789/113",
       "title": "Desarrollo de un Sistema de Autenticación Gráfica basado en Drag &amp; Drop para Ambiente Web",
       "authors": [
@@ -10740,7 +11854,7 @@
       "pdfName": null,
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.530Z",
-      "updatedAt": "2025-10-14T17:25:55Z",
+      "updatedAt": "2026-09-22T14:20:38Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -11194,12 +12308,12 @@
     },
     {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/67",
-      "datestamp": "2025-10-15T11:22:39Z",
+      "datestamp": "2026-09-26T14:29:29Z",
       "handle": "123456789/67",
       "title": "Propuesta para el Retrofit de los Sistemas de Protección de las Unidades Generadoras de la Central Hidroeléctrica Itaipú",
       "authors": [
         "Vazquez Jimenez, Francisco Javier",
-        "Dure Cabañas, Alex Ismael"
+        "Duré Cabañas, Alex Ismael"
       ],
       "advisors": [],
       "dateIssued": "2021-12",
@@ -11229,7 +12343,7 @@
       "pdfName": null,
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.558Z",
-      "updatedAt": "2025-10-15T11:22:39Z",
+      "updatedAt": "2026-09-26T14:29:29Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -11302,7 +12416,7 @@
     },
     {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/87",
-      "datestamp": "2026-04-13T11:52:25Z",
+      "datestamp": "2026-09-01T21:13:08Z",
       "handle": "123456789/87",
       "title": "Diagnóstico del Sistema Eléctrico del Campus de la Universidad Nacional de Caaguazú y Alternativas de Optimización del Consumo de la Energía Eléctrica",
       "authors": [
@@ -11337,7 +12451,7 @@
       "pdfName": null,
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.558Z",
-      "updatedAt": "2026-04-13T11:52:25Z",
+      "updatedAt": "2026-09-01T21:13:08Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,
@@ -12017,6 +13131,58 @@
       }
     },
     {
+      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/252",
+      "datestamp": "2026-10-20T11:30:34Z",
+      "handle": "123456789/252",
+      "title": "Elaboración del proyecto ejecutivo de la instalación eléctrica del Bloque Administrativo del futuro edificio de la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, ubicada en la ciudad de Coronel Oviedo",
+      "authors": [
+        "Sánchez Alvarenga, Nancy Elisa",
+        "González Rodríguez, Pedro Pastor David"
+      ],
+      "advisors": [],
+      "dateIssued": "2026-09",
+      "year": 2026,
+      "docType": "Proyecto Final de Grado",
+      "rawType": "Thesis",
+      "career": "Ingeniería en Electricidad",
+      "community": "INGENIERIA EN ELECTRICIDAD",
+      "collection": "PROYECTOS FINALES DE GRADO",
+      "setSpecs": [
+        "com_123456789_13",
+        "col_123456789_15"
+      ],
+      "subjects": [
+        "Distribución de Energía Eléctrica"
+      ],
+      "researchLine": "Distribución de Energía Eléctrica",
+      "ods": [
+        "ODS 7 - Energía asequible y no contaminante",
+        "ODS 9 - Industria Innovación e Infraestructura"
+      ],
+      "abstract": "El presente Proyecto Final de Grado consistió en la elaboración del proyecto ejecutivo de la instalación eléctrica de baja tensión del Bloque Administrativo de la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, ubicada en la ciudad de Coronel Oviedo. A partir del relevamiento arquitectónico y funcional del edificio se realizó el cómputo de cargas, obteniéndose una carga total de 230.150 W y una demanda máxima simultánea de 193,4 kVA. Con base en estos valores se dimensionaron 148 circuitos terminales, sus alimentadores y protecciones termomagnéticas, aplicando la Norma Paraguaya NP 2 028 96 y el Reglamento de Baja Tensión de la ANDE. El sistema de iluminación fue diseñado mediante el método de los lúmenes y verificado mediante simulaciones en DIALux evo, adoptando una iluminancia media mínima de 300 lx para oficinas y paneles LED de 40 W. En los catorce recintos simulados se obtuvieron iluminancias medias entre 307 y 598 lx, mientras que doce alcanzaron además una uniformidad Uo ≥ 0,60. Se seleccionó un transformador de 200 kVA y un grupo electrógeno de 160 kVA para respaldo, se adoptó un esquema de conexión a tierra TN-S y se dimensionó un banco automático de capacitores de 30 kVAR para la corrección del factor de potencia. Asimismo, se elaboraron los planos eléctricos y esquemas unifilares en AutoCAD, junto con el cómputo métrico y presupuesto, cuyo monto asciende a 1.052.826.357 Gs. La solución propuesta se considera técnicamente viable y conforme con la normativa vigente.",
+      "language": "es",
+      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/252",
+      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/by-handle/123456789/252/content",
+      "pdfSize": null,
+      "pdfName": null,
+      "rights": "Acceso abierto institucional",
+      "importedAt": "2026-10-13T21:36:48.321Z",
+      "updatedAt": "2026-10-20T11:30:34Z",
+      "quality": {
+        "hasAuthor": true,
+        "hasDate": true,
+        "hasAbstract": true,
+        "hasSubjects": true,
+        "hasResearchLine": true,
+        "hasOds": true,
+        "hasDocType": true,
+        "hasUri": true,
+        "hasPdf": true,
+        "completenessScore": 100,
+        "missingFields": []
+      }
+    },
+    {
       "identifier": "oai:publicaciones.fctunca.edu.py:123456789/172",
       "datestamp": "2025-10-20T11:10:15Z",
       "handle": "123456789/172",
@@ -12451,1106 +13617,6 @@
       "rights": "Acceso abierto institucional",
       "importedAt": "2026-10-06T20:11:00.559Z",
       "updatedAt": "2025-10-21T10:36:41Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/252",
-      "datestamp": "2026-09-26T13:26:38Z",
-      "handle": "123456789/252",
-      "title": "Elaboración del proyecto ejecutivo de la instalación eléctrica del Bloque Administrativo del futuro edificio de la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, ubicada en la ciudad de Coronel Oviedo",
-      "authors": [
-        "Sánchez Alvarenga, Nancy Elisa",
-        "González Rodríguez, Pedro Pastor David"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Distribución de Energía Eléctrica"
-      ],
-      "researchLine": "Distribución de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente Proyecto Final de Grado consistió en la elaboración del proyecto ejecutivo de la instalación eléctrica de baja tensión del Bloque Administrativo de la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, ubicada en la ciudad de Coronel Oviedo. A partir del relevamiento arquitectónico y funcional del edificio se realizó el cómputo de cargas, obteniéndose una carga total de 230.150 W y una demanda máxima simultánea de 193,4 kVA. Con base en estos valores se dimensionaron 148 circuitos terminales, sus alimentadores y protecciones termomagnéticas, aplicando la Norma Paraguaya NP 2 028 96 y el Reglamento de Baja Tensión de la ANDE. El sistema de iluminación fue diseñado mediante el método de los lúmenes y verificado mediante simulaciones en DIALux evo, adoptando una iluminancia media mínima de 300 lx para oficinas y paneles LED de 40 W. En los catorce recintos simulados se obtuvieron iluminancias medias entre 307 y 598 lx, mientras que doce alcanzaron además una uniformidad Uo ≥ 0,60. Se seleccionó un transformador de 200 kVA y un grupo electrógeno de 160 kVA para respaldo, se adoptó un esquema de conexión a tierra TN-S y se dimensionó un banco automático de capacitores de 30 kVAR para la corrección del factor de potencia. Asimismo, se elaboraron los planos eléctricos y esquemas unifilares en AutoCAD, junto con el cómputo métrico y presupuesto, cuyo monto asciende a 1.052.826.357 Gs. La solución propuesta se considera técnicamente viable y conforme con la normativa vigente.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/252",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/a2ed8d5d-c0e0-4e59-9fd4-c716d23f2b36/content",
-      "pdfSize": 596188,
-      "pdfName": "presentacion_pfg_nancy_formal final.pptx_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:26:38Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/254",
-      "datestamp": "2026-09-26T13:26:56Z",
-      "handle": "123456789/254",
-      "title": "Propuesta de diseño de un collar inteligente para el control y monitoreo de ganado en el establecimiento “Rancho Alegre” del distrito de Santa Rosa del Mbutuy",
-      "authors": [
-        "Britos Cabello, Noelia Belén",
-        "Fernández Gómez, Federico Rodolfo"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería Electrónica",
-      "community": "INGENIERIA ELECTRONICA",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Comunicaciones Industriales"
-      ],
-      "researchLine": "Comunicaciones Industriales",
-      "ods": [
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente trabajo propone el diseño de un sistema de monitoreo de ganado bovino para el establecimiento “Rancho Alegre”, ubicado en la comunidad Nati’Ury Mi, distrito de Santa Rosa del Mbutuy, departamento de Caaguazú. La propuesta surge ante las dificultades de vigilancia, localización y seguimiento del ganado en un entorno rural, como apoyo a la detección y respuesta ante posibles pérdidas o sustracción de animales. El sistema se plantea mediante una arquitectura IoT modular integrada por un microcontrolador ESP32-E16, un receptor GPS Neo-6M y un transceptor LoRa, conectado a una gateway LoRaWAN RAK7289V2 WisGate Edge Pro y a The Things Network, mientras que la visualización se plantea mediante una aplicación móvil desarrollada en React Native. El nodo incorpora dos baterías 18650 de 2500 mAh en configuración 2S, sistemas de protección, gestión de carga y balanceo, supervisión térmica y regulación a 3,3 V. El diseño establece parámetros de operación como una actualización nominal cada 60 segundos, capacidad de hasta 30 dispositivos, dimensiones de 90 × 65 × 38 mm, peso máximo de 320 g y protección IP67, además de un análisis de cobertura mediante presupuesto de enlace y un presupuesto energético para escenarios típico y de peor caso, considerando los estados de operación y deep-sleep. La metodología comprende el levantamiento de requerimientos, selección tecnológica, diseño electrónico y físico, definición del flujo de comunicación, programación, seguridad informática y análisis técnico-económico. Los resultados corresponden a una propuesta de ingeniería y no a un prototipo implementado o validado experimentalmente.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/254",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/eab30ca3-eaa1-4f37-b110-a53bc8473da6/content",
-      "pdfSize": 1052757,
-      "pdfName": "PRESENTACIÓN_PFG NOELIA_BRITOS.set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:26:56Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/251",
-      "datestamp": "2026-09-26T13:26:29Z",
-      "handle": "123456789/251",
-      "title": "Desarrollo de un sistema de iluminación vial para el cruce Karumbey del distrito de Corpus Christi, departamento de Canindeyú, integrando soluciones tecnológicas que garanticen la estabilidad energética y operativa",
-      "authors": [
-        "González Rivas, Natalia Andrea",
-        "González Rodríguez, Pedro Pastor David",
-        "López Gauto, Jonhatan Alberto"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Distribución de Energía Eléctrica",
-        "Control y Automatización Industrial",
-        "Tecnologías de Energías Renovables"
-      ],
-      "researchLine": "Distribución de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura",
-        "ODS 11 - Ciudades y comunidades sostenibles"
-      ],
-      "abstract": "El presente proyecto de fin de grado se centra en el desarrollo de un proyecto ejecutivo de iluminación vial para los tramos de las rutas PY03 y PY07, con especial atención al cruce Karumbey, distrito de Corpus Christi, departamento de Canindeyú, donde la ausencia de alumbrado público y el elevado flujo vehicular generan condiciones desfavorables para la seguridad vial y operativa durante horarios nocturnos. La propuesta surge a partir de una solicitud formal de la Municipalidad de Corpus Christi. Para el desarrollo del proyecto se realizó un relevamiento de datos en campo, análisis topográfico mediante QGIS, modelado en AutoCAD y simulaciones en DIALux evo, considerando las normativas técnicas aplicables. Asimismo, se diseñó un sistema de automatización basado en sensores y PLC para regular el flujo luminoso según las condiciones de tránsito y del entorno, con el propósito de optimizar el consumo energético y mejorar la operación del sistema. Se evaluaron cuatro alternativas mediante un análisis multicriterio basado en el método AHP: iluminación LED sin automatismo, iluminación LED con automatismo, iluminación fotovoltaica sin automatismo e iluminación fotovoltaica con automatismo. Los resultados identificaron como alternativas de mejor desempeño al sistema fotovoltaico con automatismo, con una valoración de 4,50, y al sistema LED con automatismo, con 4,28. Ambas alternativas fueron consideradas técnicamente viables, quedando la selección definitiva sujeta a la disponibilidad presupuestaria. Los presupuestos estimados ascienden a Gs. 2.484.591.900 para el sistema fotovoltaico con automatismo y Gs. 1.527.086.400 para el sistema LED con automatismo.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/251",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/e47cea54-ecdd-4c6d-a9ab-48e9a1224f9a/content",
-      "pdfSize": 1701538,
-      "pdfName": "PFG - NATALIA GONZÁLEZ.docx_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:26:29Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/253",
-      "datestamp": "2026-09-26T13:26:46Z",
-      "handle": "123456789/253",
-      "title": "Propuesta de automatización de las fases de corte y doblado en la fabricación de gabinetes eléctricos en la empresa Frantec Ingeniería ubicada en la ciudad de Coronel Oviedo",
-      "authors": [
-        "Barrios Chaparro, Guillermo Iván",
-        "Vargas Parra, Edgar Bacilio"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería Electrónica",
-      "community": "INGENIERIA ELECTRONICA",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Control y Automatización Industrial",
-        "Sistemas Mecatrónicos"
-      ],
-      "researchLine": "Control y Automatización Industrial",
-      "ods": [
-        "ODS 8 - Trabajo decente y crecimiento económico",
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente trabajo tuvo como objetivo diseñar una propuesta de automatización para las fases de corte y doblado de chapas en la fabricación de gabinetes eléctricos de la empresa Frantec Ingeniería, ubicada en la ciudad de Coronel Oviedo, departamento de Caaguazú. El proceso actual se desarrolla de forma manual, generando baja eficiencia, imprecisiones dimensionales y riesgos laborales, identificándose el trazado y corte manual como el principal cuello de botella, con aproximadamente el 60 % del tiempo total de producción. La metodología corresponde a una investigación aplicada con enfoque tecnológico y contempla el diseño de dos subsistemas complementarios: una cortadora láser CNC controlada mediante Arduino UNO con firmware GRBL y una dobladora hidráulica semiautomática gobernada por un PLC LOGO! 8 Siemens. Las alternativas tecnológicas fueron evaluadas mediante matrices multicriterio, considerando principalmente la relación entre costo, precisión y disponibilidad regional. El diseño establece como especificaciones teóricas una precisión de ±0,1 mm en el corte y una repetibilidad de ±1° en el doblado, valores que deberán verificarse experimentalmente durante la implementación. Los cálculos determinaron una fuerza de doblado de 30 toneladas para chapas de 2 mm, dimensionándose el sistema hidráulico para 40 toneladas. El diseño considera las normas ISO 12100, IEC 60825-1 y NFPA 79/IEC 60204-1. El análisis económico, basado en una inversión estimada de ₲ 74.370.000, proyectó una TIR del 42 %, un VAN de ₲ 53.151.332 al quinto año y recuperación de la inversión durante el tercer año de operación. Se concluye que la propuesta presenta viabilidad técnica y financiera, con una capacidad productiva proyectada de 80 a 120 gabinetes mensuales y mejoras esperadas en la seguridad operativa.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/253",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/d4984c4a-3171-40fc-bf88-47aa6c6f0a60/content",
-      "pdfSize": 592551,
-      "pdfName": "Defensa_PFG_Guillermo_Barrios.pptx_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:26:46Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/250",
-      "datestamp": "2026-09-26T13:25:48Z",
-      "handle": "123456789/250",
-      "title": "Propuesta de una metodología técnico-económica para la modernización selectiva de alimentadores rurales. Caso de estudio: CZA-05",
-      "authors": [
-        "Britez Escurra, Omar Gabriel",
-        "Martínez Godoy, Juan Jesús",
-        "Aguilar Barrios, Jhonny Rodrigo"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Distribución de Energía Eléctrica"
-      ],
-      "researchLine": "Distribución de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente Proyecto Final de Grado propone una metodología técnico-económica para la modernización selectiva de alimentadores rurales, aplicada al alimentador CZA-05 de la Administración Nacional de Electricidad (ANDE), ubicado en el departamento de Caazapá. La metodología integra la caracterización operativa del circuito, la segmentación geográfica según exposición a la vegetación, accesibilidad vial y criticidad operativa, la simulación eléctrica mediante CYMDIST, la evaluación mecánica de alternativas y un análisis económico multicriterio. El diagnóstico correspondiente al ciclo 2024 evidenció una red extensa, con valores de Frecuencia Equivalente de Potencia Interrumpida (FEP) de 8,03 y Duración Equivalente de Potencia Interrumpida (DEP) de 9,09 h, además de 180 novedades operativas y pérdidas técnicas de 1.450,36 kW en la condición de máxima demanda analizada. La alternativa basada en conductor protegido Tree Wire 4/0 AWG redujo las pérdidas técnicas a 1.040,58 kW, equivalente a una disminución aproximada del 28,3 % respecto del escenario base. El nuevo perfil de tensión presentó mínimos locales cercanos a 21,9 kV, equivalentes aproximadamente al 95,2 % de la tensión nominal de 23 kV, mientras que en el nodo terminal la menor tensión correspondió a la fase C, con 22,236 kV. La propuesta contempla 57,2 km de intervención con Tree Wire y una variante vial de 12,7 km, con un presupuesto conceptual de ₲ 25.051.200.000 y un ahorro de CAPEX de ₲ 11.017.200.000 frente a una referencia de red compacta masiva. Bajo las hipótesis financieras adoptadas, la conveniencia económica se sustenta principalmente en el criterio de costo-efectividad.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/250",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/b0bb61a4-2676-4a23-b766-34a533c88f5a/content",
-      "pdfSize": 2934038,
-      "pdfName": "PFG_BRITEZ_MARTINEZ_set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:25:48Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/249",
-      "datestamp": "2026-09-26T13:25:31Z",
-      "handle": "123456789/249",
-      "title": "Análisis técnico-económico para la priorización de refuerzos de distribución – Asunción y Gran Asunción",
-      "authors": [
-        "Ramírez Diaz, Rosa Liz",
-        "Brítez Iglesia, Moisés"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Distribución de Energía Eléctrica"
-      ],
-      "researchLine": "Distribución de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "La red de distribución en media tensión de 23 kV de la Administración Nacional de Electricidad (ANDE) en Asunción y Gran Asunción presenta más de 1.500 puntos de distribución que requieren refuerzos de potencia, frente a una capacidad institucional de ejecución limitada y un crecimiento sostenido de la demanda. En este contexto, el presente trabajo propone un análisis técnico-económico orientado a priorizar los refuerzos más urgentes y cuantificar la inversión asociada. Para ello, se integraron tres fuentes de datos institucionales: pedidos de distribución pendientes, mediciones de cargabilidad de transformadores y registros de reclamos por averías. El proceso de depuración redujo 77.595 registros iniciales a 41.911 reclamos únicos, mientras que el procesamiento permitió establecer un ranking de 1.771 puntos de distribución pendientes o parciales y asociar geoespacialmente 18.623 reclamos a 1.406 puntos. Ante la ausencia de mediciones eléctricas directas para este universo, se mantuvo la formulación operativa del Índice de Prioridad Compuesto (IPC), basada en la presión de reclamos y la reincidencia, cuya pertinencia fue examinada mediante entrevistas documentadas, registros de reiteración y una validación estadística exploratoria independiente. Mediante K-Means se seleccionó K = 4, obteniéndose los grupos URGENTE (282), ALTO (153), MEDIO (992) y BAJO (344). Independientemente de esta segmentación, el umbral IPC ≥ P80 seleccionó 356 puntos para el análisis económico. La estimación financiera, basada en precios unitarios de la Licitación Pública Nacional LP 1984/25, determinó una inversión de entre USD 465.765 y USD 640.441, equivalentes a Gs. 3.656.258.604 y Gs. 5.027.458.984, respectivamente. Los resultados proporcionan una hoja de ruta cuantificada para apoyar la toma de decisiones institucionales orientada al período 2026–2027.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/249",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/534bd771-1d4b-4437-99ff-2d69bbfcf3be/content",
-      "pdfSize": 885671,
-      "pdfName": "PFG_FCyT.docx_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:25:31Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/260",
-      "datestamp": "2026-09-26T13:27:46Z",
-      "handle": "123456789/260",
-      "title": "Modernización del módulo de recibos de dinero del Sistema de Gestión Académica para la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, año 2025",
-      "authors": [
-        "Varela Acosta, Pablo Ezequiel",
-        "Melgarejo Riveros, Víctor Manuel",
-        "Solís Silberth, Gustavo Enrique"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería Informática",
-      "community": "INGENIERIA INFORMATICA",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Ingeniería de Software"
-      ],
-      "researchLine": "Ingeniería de Software",
-      "ods": [
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente Proyecto Final de Grado tuvo como objetivo modernizar el módulo de recibos de dinero del Sistema de Gestión Académica de la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, como parte del proceso de actualización tecnológica de una plataforma institucional heredada. Durante la etapa de análisis se realizaron entrevistas al personal del área de Caja y del Departamento de Informática, complementadas con el análisis documental del sistema existente, lo que permitió identificar limitaciones relacionadas con la arquitectura tecnológica, la interfaz de usuario, la mantenibilidad del código y la generación de informes administrativos. La solución se desarrolló mediante una arquitectura cliente-servidor desacoplada, utilizando Django y Django REST Framework para el backend, React con TypeScript para el frontend y PostgreSQL para la gestión de la base de datos. Asimismo, se incorporaron validaciones de reglas de negocio, mecanismos de auditoría, generación de comprobantes en formato PDF y funcionalidades para la emisión, modificación, anulación y consulta de recibos. Los resultados evidenciaron una optimización de los procesos administrativos del área de Caja, reducción de errores operativos, fortalecimiento de la trazabilidad de las operaciones y mejoras en la generación de informes diarios. La validación mediante encuestas mostró una percepción favorable de los usuarios, evidenciando que la solución responde a las necesidades operativas identificadas y proporciona una base tecnológica moderna, mantenible y preparada para futuras ampliaciones.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/260",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/1050be4b-a733-4477-aaca-d94387e80186/content",
-      "pdfSize": 375937,
-      "pdfName": "Defensa_PFG_Varela_Acosta.pptx_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:27:46Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/263",
-      "datestamp": "2026-09-26T13:28:11Z",
-      "handle": "123456789/263",
-      "title": "Propuesta de esquemas para la protección de barras de 23 kV en la Estación Capiatá de la ANDE",
-      "authors": [
-        "Páez Bogado, Jonathan",
-        "Aguilar Barrios, Jhonny Rodrigo",
-        "Vera Godoy, Agustín Junior"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Distribución de Energía Eléctrica"
-      ],
-      "researchLine": "Distribución de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente Trabajo Final de Grado propone esquemas para la protección de barras de 23 kV en la Estación Capiatá de la ANDE, con el propósito de mejorar la rapidez y selectividad de actuación ante fallas eléctricas y reducir los tiempos de disparo de los interruptores. La metodología comprendió una revisión bibliográfica y el análisis mediante simulaciones realizadas en ETAP, utilizando el módulo StarZ para evaluar la coordinación y el comportamiento de las protecciones ante fallas trifásicas y fase-tierra. El modelo incluyó dos transformadores de potencia trifásicos de 80 MVA, dos barras de 23 kV, 14 alimentadores de 23 kV, transformadores de servicios auxiliares, bancos de capacitores, transformadores de corriente y relés de protección ARTECHE PL 300 con sus respectivas funciones. Como propuesta, se estableció un esquema de disparo rápido mediante señales lógicas cableadas, logrando reducir los tiempos de actuación de 704,6 ms a 133 ms en 23 kV y de 1341 ms a 161 ms en 220 kV para barras desacopladas; mientras que, para barras acopladas, los tiempos se redujeron de 1103 ms a 133 ms en 23 kV y de 2121 ms a 161 ms en 220 kV. Las simulaciones permitieron comprobar la selectividad del esquema ante fallas trifásicas y fase-tierra, tanto con las barras A y B acopladas como desacopladas. Finalmente, se elaboró un presupuesto de implementación de la propuesta por Gs. 42.738.180, evidenciándose una alternativa técnicamente viable para mejorar el desempeño de la protección de barras de 23 kV.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/263",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/224b56f9-4bb5-43c4-97da-90a1af71f708/content",
-      "pdfSize": 628178,
-      "pdfName": "Presentacion PFG JPaez set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:28:11Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/261",
-      "datestamp": "2026-09-26T13:27:54Z",
-      "handle": "123456789/261",
-      "title": "Elaboración del proyecto ejecutivo de la instalación eléctrica de la futura sede de la Casa de la Cultura “Don Mario Halley Mora” ubicada en la ciudad de Coronel Oviedo",
-      "authors": [
-        "Jara Caballero, Cinthia Lorena",
-        "Casco Galeano, Carlos Aníbal"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Distribución de Energía Eléctrica",
-        "Ciencia y Tecnología para el Desarrollo Sostenible"
-      ],
-      "researchLine": "Distribución de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura",
-        "ODS 11 - Ciudades y comunidades sostenibles"
-      ],
-      "abstract": "El presente Trabajo Final de Grado desarrolla el proyecto ejecutivo de la instalación eléctrica de la futura sede de la Casa de la Cultura “Don Mario Halley Mora”, ubicada en la ciudad de Coronel Oviedo, con el propósito de establecer una solución eléctrica segura, confiable y adecuada a las características de la edificación. El proyecto contempla el diseño de la instalación eléctrica, incluyendo la distribución de circuitos y conductores, sistemas de iluminación, protecciones eléctricas, puesta a tierra y dispositivos de protección contra sobretensiones y descargas atmosféricas. Se dimensionó una malla de puesta a tierra considerando las características de resistividad del terreno y los criterios técnicos establecidos, además de un sistema de pararrayos tipo PDC. Para garantizar la continuidad del suministro ante interrupciones de la red eléctrica, se proyectó un grupo electrógeno diésel de 200 kVA, dimensionado de acuerdo con la carga global de la instalación. Asimismo, considerando un factor de potencia inicial de 0,85, se diseñó un banco automático de capacitores de 62,5 kVAr, compuesto por una etapa fija y etapas automáticas, destinado a mejorar el factor de potencia y reducir la demanda de potencia reactiva. El proyecto integra criterios de seguridad, confiabilidad, continuidad de servicio y cumplimiento normativo, obteniéndose como resultado un proyecto ejecutivo eléctrico técnicamente fundamentado y adaptado a las necesidades de la futura edificación. El presupuesto estimado para la ejecución de las instalaciones asciende a Gs. 844.699.185, constituyendo una base técnica para su posterior implementación.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/261",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/6589450f-ffd9-4f19-bd6c-a3c97d61e581/content",
-      "pdfSize": 1466142,
-      "pdfName": "PFG Cinthia Jara set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:27:54Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/257",
-      "datestamp": "2026-09-26T13:27:23Z",
-      "handle": "123456789/257",
-      "title": "Desarrollo de un gemelo digital para la gestión y análisis de datos de operación de alimentadores de media tensión de la ANDE, Coronel Oviedo, año 2026",
-      "authors": [
-        "Girett Ramoa, Maria Gisselle",
-        "Coronel Ramoa, Julio César",
-        "Melgarejo Riveros, Víctor Manuel"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería Informática",
-      "community": "INGENIERIA INFORMATICA",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Distribución de Energía Eléctrica",
-        "Ciencia de Datos",
-        "Ingeniería de Software"
-      ],
-      "researchLine": "Distribución de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente Trabajo Final de Grado tuvo como objetivo desarrollar un gemelo digital para la gestión y análisis de datos de operación de alimentadores de media tensión de la ANDE, Regional Coronel Oviedo, con el propósito de representar digitalmente la topología de la red, simular maniobras y facilitar el análisis de indicadores asociados a la continuidad del servicio. La metodología contempló el levantamiento de requerimientos mediante entrevistas técnicas, el modelado estructural de la red eléctrica a partir de datos exportados desde SQL Server y el desarrollo de una arquitectura cliente-servidor basada en Django, API REST y Flutter Web. El sistema incorporó un motor topológico capaz de recalcular dinámicamente el estado de energización de la red después de cada maniobra simulada, así como módulos para el cálculo de indicadores técnicos FEP y DEP y el registro de auditoría de las operaciones realizadas. Los resultados demostraron la viabilidad técnica de la solución, permitiendo representar la topología del alimentador, ejecutar maniobras controladas y generar métricas relacionadas con el desempeño y la continuidad del servicio. Asimismo, se evidenciaron características de coherencia estructural, modularidad y escalabilidad para su eventual aplicación en entornos institucionales. Desde las perspectivas técnica y económica, el proyecto demostró la factibilidad de utilizar tecnologías abiertas para la digitalización de infraestructura eléctrica, contribuyendo a la modernización de los procesos operativos y al fortalecimiento de la toma de decisiones basada en datos.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/257",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/732234ec-9352-4db5-a564-fa36250150e0/content",
-      "pdfSize": 1514040,
-      "pdfName": "Desarrollo de un Gemelo Digital GG_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:27:23Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/256",
-      "datestamp": "2026-09-26T13:27:15Z",
-      "handle": "123456789/256",
-      "title": "Reingeniería del sistema de gestión académico de la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, año 2025",
-      "authors": [
-        "Ávalos Cardozo, Julio Juan",
-        "Sanabria Mendoza, Fernando Isaías",
-        "Melgarejo Riveros, Víctor Manuel",
-        "Coronel Rojas, Carlos Jein"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería Informática",
-      "community": "INGENIERIA INFORMATICA",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Ingeniería de Software"
-      ],
-      "researchLine": "Ingeniería de Software",
-      "ods": [
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente Proyecto Final de Grado aborda la reingeniería del Sistema de Gestión Académica de la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú, delimitada al ámbito de los procesos y funcionalidades de gestión académica. Mediante encuestas, análisis documental y reingeniería de procesos, se identificaron limitaciones en el sistema heredado, entre ellas inconsistencias y redundancias de datos, falta de normalización de la base de datos, ausencia de mecanismos de seguridad y auditoría trazable, así como el uso de un lenguaje de programación sin soporte oficial, aspectos que dificultan su mantenimiento y actualización. Como propuesta tecnológica, se diseñó una arquitectura cliente-servidor desacoplada, con un backend desarrollado en Django y Django REST Framework, mediante una API RESTful con autenticación JWT, validaciones y middleware de auditoría, y un frontend desarrollado en React para la interacción con los servicios mediante peticiones asíncronas. La persistencia se gestiona mediante PostgreSQL, aplicando normalización hasta la Tercera Forma Normal (3FN), restricciones de integridad referencial y transacciones para preservar la consistencia de los datos. La solución incorpora además control de acceso basado en roles (RBAC) y mecanismos de auditoría orientados a fortalecer la seguridad y trazabilidad de las operaciones. Como resultado, se obtuvo una propuesta tecnológica orientada a modernizar la gestión académica, automatizar procesos, reducir errores operativos y mejorar la disponibilidad, organización y consistencia de la información, estableciendo una base tecnológica para facilitar el mantenimiento y futuras ampliaciones del sistema.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/256",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/c6dcdb92-023b-4ea8-abbe-93001714302f/content",
-      "pdfSize": 1667484,
-      "pdfName": "PFG_Fernando_Sanabria_Julio_Avalos_Agosto15.docx_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:27:15Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/258",
-      "datestamp": "2026-09-26T13:27:31Z",
-      "handle": "123456789/258",
-      "title": "Proyecto ejecutivo de rehabilitación integral del Estadio Boquerón de la ciudad de Bella Vista Norte – Dpto. de Amambay",
-      "authors": [
-        "Fernández Barboza, Diego Arnaldo",
-        "Penayo Portillo, Esteban Arnaldo",
-        "Samudio Rodríguez, Darío Arnaldo"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería Informática",
-      "community": "INGENIERIA INFORMATICA",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Estructuras y Construcciones civiles",
-        "Ingeniería estructural mecánica y materiales"
-      ],
-      "researchLine": "Estructuras y Construcciones civiles",
-      "ods": [
-        "ODS 9 - Industria Innovación e Infraestructura",
-        "ODS 11 - Ciudades y comunidades sostenibles"
-      ],
-      "abstract": "El presente Proyecto Final de Grado desarrolla el Proyecto Ejecutivo de Rehabilitación Integral del Estadio Boquerón, ubicado en la ciudad de Bella Vista Norte, departamento de Amambay, con el propósito de plantear una solución técnica para la renovación de la infraestructura destinada a la práctica del fútbol y a la realización de competencias organizadas por la Liga Bellavisteña de Fútbol. Como parte del estudio, se realizó una evaluación de las condiciones actuales de la infraestructura, considerando aspectos funcionales, estructurales y de seguridad, determinándose que las instalaciones existentes no satisfacen las exigencias técnicas y normativas vigentes. En respuesta a esta situación, se propone la sustitución integral de las edificaciones existentes, manteniendo el carácter deportivo del predio. El proyecto comprende estudios topográficos y geotécnicos, diseño arquitectónico y estructural, instalaciones sanitarias, sistemas de desagüe cloacal y pluvial, protección contra incendios, drenaje y riego de la cancha, además del cómputo métrico y presupuesto general de la obra. Cada componente fue desarrollado bajo criterios de funcionalidad, seguridad, durabilidad y cumplimiento de las normativas técnicas aplicables. La propuesta constituye una herramienta técnica para orientar la futura ejecución de la obra y busca dotar a Bella Vista Norte de una infraestructura deportiva moderna y adecuada para actividades deportivas, recreativas y sociales, contribuyendo al fortalecimiento de la infraestructura urbana y al desarrollo de la comunidad.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/258",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/bbf016e3-af4b-4e58-8f90-b4a48bd9cfb5/content",
-      "pdfSize": 1808608,
-      "pdfName": "PFG Diego Fernandez set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:27:31Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/262",
-      "datestamp": "2026-09-26T13:28:01Z",
-      "handle": "123456789/262",
-      "title": "Elaboración del procedimiento para la puesta en servicio y mantenimiento del sistema de monitoreo de temperatura de transformadores 500/220/23 kV de la ES-VHA",
-      "authors": [
-        "Ramírez García, Alexis Hernán",
-        "Santacruz Portillo, Osvaldo Jesús"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Distribución de Energía Eléctrica"
-      ],
-      "researchLine": "Distribución de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente Trabajo Final de Grado tiene como objetivo elaborar un procedimiento técnico para la puesta en servicio y el mantenimiento del sistema de monitoreo de temperatura de transformadores de potencia de 500/220/23 kV, aplicado a la Estación Villa Hayes (ES-VHA), considerando la importancia del monitoreo térmico para preservar la vida útil de los equipos y prevenir fallas en el sistema eléctrico de potencia. Para ello, se realizó un relevamiento en campo mediante inspecciones físicas, revisión de documentación técnica y consultas con personal especializado, orientado a analizar las condiciones operativas de los transformadores, evaluar el estado de instalación del sistema de monitoreo e identificar las causas de las fallas recurrentes. Entre las principales deficiencias detectadas se encontraron lecturas inconsistentes, problemas de cableado, alarmas erróneas en la unidad de adquisición de datos (DAQ), fallas de comunicación con el sistema SCADA, ausencia de protocolos de verificación posteriores al mantenimiento y falta de un plan sistemático de mantenimiento preventivo. Como respuesta, se elaboró un procedimiento técnico estandarizado para la puesta en servicio y mantenimiento del sistema, acompañado de formatos tipo checklist que facilitan su aplicación y verificación. La propuesta contribuye a mejorar la confiabilidad del monitoreo térmico, fortalecer las condiciones de operación y mantenimiento de los transformadores y reducir riesgos asociados a fallas del sistema de supervisión. Asimismo, el procedimiento presenta posibilidades de aplicación en otras estaciones transformadoras con sistemas de monitoreo de características similares.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/262",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/eae32360-fc08-4d2a-ba53-e4aaccd58b29/content",
-      "pdfSize": 357641,
-      "pdfName": "PRESENTACION ALEXIS 2026.pptx_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:28:01Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/259",
-      "datestamp": "2026-09-26T13:27:38Z",
-      "handle": "123456789/259",
-      "title": "Desarrollo de un sistema web para la gestión de documentos eclesiásticos de la Parroquia Cristo Redentor de Coronel Oviedo, año 2025",
-      "authors": [
-        "Bogado Varela, Rodrigo Javier",
-        "Melgarejo Riveros, Víctor Manuel"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería Informática",
-      "community": "INGENIERIA INFORMATICA",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Ingeniería de Software"
-      ],
-      "researchLine": "Ingeniería de Software",
-      "ods": [
-        "ODS 16 - Paz justicia e instituciones sólidas"
-      ],
-      "abstract": "El presente Proyecto Final de Grado tiene como objetivo desarrollar un sistema web para la gestión de documentos eclesiásticos de la Parroquia Cristo Redentor de Coronel Oviedo, como respuesta a las limitaciones del registro manual en libros físicos, que dificultan la localización de información y generan riesgos asociados al deterioro o pérdida de documentos históricos. La investigación adoptó un enfoque cualitativo, con diseño no experimental y de tipo aplicado. Para el relevamiento de requerimientos se realizaron entrevistas al secretario general, observación directa de los procedimientos de la secretaría parroquial y revisión de la estructura de los libros sacramentales. El sistema fue desarrollado mediante herramientas de software libre y código abierto, integrando PHP, PhpMyAdmin, Apache, Bootstrap y JavaScript, además de Google Drive para el almacenamiento en la nube. La solución incorpora los módulos de Gestión de Laicos, Gestión Sacramental y Gestión de Expedición de Certificados, permitiendo centralizar la información, generar reportes del historial sacramental y de los certificados expedidos, y controlar el acceso mediante roles. Los resultados evidencian mejoras en los tiempos de búsqueda y respuesta, reducción de errores manuales de transcripción y mayor agilidad en la atención al ciudadano. Asimismo, el almacenamiento digital y los mecanismos de acceso controlado contribuyen a la preservación de la documentación y de la memoria histórica de la institución. El proyecto aporta una solución tecnológica orientada a fortalecer la gestión documental y se vincula con el ODS 16, promoviendo instituciones sólidas y la preservación de información histórica.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/259",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/9706e48e-a669-41cf-ad6a-2fe8f477b020/content",
-      "pdfSize": 662512,
-      "pdfName": "PFG Rodrigo Bogado set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:27:38Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/255",
-      "datestamp": "2026-09-26T13:27:08Z",
-      "handle": "123456789/255",
-      "title": "Modelo de aprendizaje automático para alertas tempranas de rendimiento académico insuficiente en la Facultad de Ciencias y Tecnologías (UNCA), 2025",
-      "authors": [
-        "Lesme Mendoza, Shirley Lujan",
-        "Fleitas Gadea, Mariza",
-        "Melgarejo Riveros, Víctor Manuel",
-        "Vázquez Cáceres, Luz Melina"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería Informática",
-      "community": "INGENIERIA INFORMATICA",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Ciencia de Datos"
-      ],
-      "researchLine": "Ciencia de Datos",
-      "ods": [
-        "ODS 4 - Educación de calidad"
-      ],
-      "abstract": "El rendimiento académico insuficiente y la deserción estudiantil representan problemáticas críticas en la educación superior que afectan la permanencia institucional. Esta investigación tuvo como objetivo desarrollar un modelo de aprendizaje automático para la detección temprana de estudiantes con riesgo de rendimiento académico insuficiente en la Facultad de Ciencias y Tecnologías de la Universidad Nacional de Caaguazú (UNCA). A partir de la integración de registros históricos institucionales del período 2015–2025, se construyó un conjunto de datos estructurado a nivel estudiante-semestre que incorporó variables clave como materias reprobadas, avance curricular, prerrequisitos pendientes y desempeño académico histórico. Se entrenaron y evaluaron modelos de clasificación supervisada, específicamente Regresión Logística, Random Forest y Árbol de Decisión, priorizando la sensibilidad (Recall) para garantizar una alta tasa de detección de casos de riesgo. Los resultados demostraron que el modelo de Árbol de Decisión obtuvo el mejor desempeño, alcanzando aproximadamente un 98% de sensibilidad. Finalmente, con el fin de facilitar la aplicación práctica de los resultados y apoyar las estrategias institucionales de seguimiento académico y toma de decisiones preventivas, el modelo seleccionado fue integrado en una herramienta web interactiva desarrollada mediante Streamlit, Python y MongoDB.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/255",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/4275b501-d580-441d-a53b-47c77c8bc1e1/content",
-      "pdfSize": 1084069,
-      "pdfName": "PFG_SHIRLEY_MARIZA_JUL26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:27:08Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/264",
-      "datestamp": "2026-09-26T13:28:18Z",
-      "handle": "123456789/264",
-      "title": "Propuesta de alternativas de autogeneración de energía eléctrica para alimentar el nuevo tren de molienda de la Planta Industrial Mauricio José Troche de PETROPAR",
-      "authors": [
-        "Melgarejo Quiñonez, Nelson Gustavo",
-        "González Rodríguez, Pedro Pastor David"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Generación de energía eléctrica",
-        "Tecnologías de Energías Renovables"
-      ],
-      "researchLine": "Generación de energía eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura",
-        "ODS 13 - Acción por el clima"
-      ],
-      "abstract": "La Planta Industrial de PETROPAR, ubicada en la ciudad de Mauricio José Troche, departamento del Guairá, cuenta con un predio de 150 hectáreas y tiene como actividad principal la producción de etanol a partir de caña de azúcar, destinado posteriormente a la mezcla con las naftas comercializadas por PETROPAR. El elevado consumo de energía eléctrica representa un componente significativo de los costos de producción, con un promedio de 437.000.000 Gs. mensuales. A esta situación se suma la instalación de un nuevo tren de molienda con accionamiento eléctrico de 7,5 MW, lo que genera la necesidad de incrementar la capacidad de generación eléctrica en 8,5 MW adicionales, con el objetivo de alcanzar la independencia energética respecto de la ANDE. En este trabajo se analizan tres alternativas de autogeneración eléctrica: generación fotovoltaica, generación a biomasa y generación a biogás. Para su evaluación se consideran los recursos energéticos disponibles, el área requerida para su implementación, los costos asociados y el impacto ambiental. Las alternativas analizadas utilizan recursos naturales renovables. Los resultados determinan que la alternativa económicamente más conveniente es la generación mediante la combustión del bagazo de caña de azúcar, utilizando dos turbogeneradores a vapor, uno de 1,5 MW y otro de 8,5 MW. En consecuencia, se propone repotenciar la capacidad de cogeneración de la planta mediante la adquisición de un nuevo turbogenerador de 8,5 MW, 13,8 kV y 50 Hz, con un costo estimado de USD 3.470.167. Su implementación permitiría alcanzar la autosuficiencia eléctrica de la Planta Industrial.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/264",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/00f2ca83-a359-43ad-a29d-57e78f626634/content",
-      "pdfSize": 2078879,
-      "pdfName": "PFG_Nelson_Melgarejo_set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:28:18Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/265",
-      "datestamp": "2026-09-26T13:28:28Z",
-      "handle": "123456789/265",
-      "title": "Propuesta de procedimiento de pruebas de aceptación en sitio aplicado a interruptores de potencia de 220 kV de la ANDE",
-      "authors": [
-        "Ramirez García, Rodrigo Rafael",
-        "Santacruz Portillo, Osvaldo Jesús"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "ransmisión de Energía Eléctrica",
-        "Generación de energía eléctrica"
-      ],
-      "researchLine": "ransmisión de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente trabajo desarrolla una propuesta de procedimiento de pruebas eléctricas de aceptación en sitio para interruptores de potencia aislados en gas SF₆, con un nivel de tensión de 220 kV, conforme a las directrices establecidas por la norma ANSI/NETA ATS 2017. El objetivo es establecer un método técnico y estandarizado que permita verificar la correcta operación, seguridad y confiabilidad de estos equipos antes de su puesta en servicio. Para su elaboración se realizó un estudio de las normas internacionales aplicables a las pruebas eléctricas de interruptores de potencia, determinándose que la ANSI/NETA ATS 2017 proporciona el marco de referencia más adecuado para sustentar el procedimiento propuesto. Asimismo, se identificaron parámetros técnicos y operativos relevantes, entre ellos la resistencia de los contactos principales, los tiempos de apertura y cierre, los circuitos auxiliares, la estanqueidad y los sistemas de enclavamiento. Con base en estos criterios, se diseñó un procedimiento que establece los ensayos a realizar, los datos que deben recopilarse, las condiciones de medición y los criterios de aceptación de los resultados. El documento incorpora además tablas de registro, valores de referencia y lineamientos para la evaluación de los resultados obtenidos en campo. La aplicación del procedimiento propuesto constituye una herramienta técnica para contribuir a la seguridad operativa, eficiencia y confiabilidad de los sistemas eléctricos de alta tensión, así como al mantenimiento preventivo y predictivo de los interruptores de potencia en gas SF₆.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/265",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/8af0ff13-12a5-49e4-9d89-6b8befb9e225/content",
-      "pdfSize": 934490,
-      "pdfName": "PFG_Rodrigo Rafael Ramirez Garcia_.set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:28:28Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/266",
-      "datestamp": "2026-09-26T13:28:34Z",
-      "handle": "123456789/266",
-      "title": "Propuesta de alternativas técnicas para el mejoramiento del perfil de tensión del alimentador CZA-02 de la Subestación Caazapá",
-      "authors": [
-        "Leiva Irala, Liz Romina",
-        "Vera Salinas, Gissela Arami",
-        "Moreno Sosa, Alfredo Gustavo"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Distribución de Energía Eléctrica"
-      ],
-      "researchLine": "Distribución de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente proyecto de fin de grado aborda el estudio y análisis del alimentador CZA-02 de la Subestación Caazapá (SE-CZA), con el propósito de evaluar su comportamiento operativo y proponer alternativas técnicas orientadas al mejoramiento del perfil de tensión y al balance de cargas en la red de distribución de Media Tensión (23 kV). El trabajo responde a la necesidad de garantizar un suministro eléctrico confiable y eficiente, conforme a los parámetros establecidos en la normativa vigente, considerando el crecimiento de la demanda y las restricciones actuales del sistema. Para el análisis se recopilaron datos de campo, se construyó el modelo eléctrico del alimentador y se realizaron simulaciones mediante el software CYMDIST bajo diferentes escenarios de carga. Los resultados evidenciaron niveles de tensión inferiores a los límites establecidos en el Reglamento de Media Tensión de la ANDE, un desequilibrio de tensión de hasta 5,44 % y pérdidas técnicas asociadas principalmente a la longitud del alimentador y a la distribución irregular de cargas monofásicas. Asimismo, se identificaron tramos críticos donde la tensión desciende por debajo de 0,85 p.u. durante condiciones de máxima demanda. A partir del diagnóstico se evaluaron alternativas que incluyen la instalación y reubicación de reguladores de tensión, el refaseo de cargas y la trifasicación de tramos monofásicos. Las simulaciones muestran que la aplicación combinada de estas medidas, junto con la incorporación de nuevos compensadores, permite mejorar el perfil de tensión hasta en un 11 % en los tramos críticos. Finalmente, se elaboró el presupuesto correspondiente a la propuesta de solución, determinándose que las medidas analizadas constituyen una alternativa técnicamente viable para el mejoramiento del alimentador.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/266",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/31966cb3-ec1b-41c1-8196-ee527b1fa961/content",
-      "pdfSize": 1142586,
-      "pdfName": "PFG - Romina Leiva, Gissela Vera_set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:28:34Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/267",
-      "datestamp": "2026-09-26T13:28:41Z",
-      "handle": "123456789/267",
-      "title": "Diseño e implementación de una máquina CNC láser para el desarrollo de circuitos impresos (PCB)",
-      "authors": [
-        "Cartamán Filártiga, Gustavo Manuel",
-        "Arredondo Onieva, Derlis Rodrigo"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería Electrónica",
-      "community": "INGENIERIA ELECTRONICA",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Sistemas Mecatrónicos"
-      ],
-      "researchLine": "Sistemas Mecatrónicos",
-      "ods": [
-        "ODS 9 - Industria Innovación e Infraestructura",
-        "ODS 4 - Educación de calidad"
-      ],
-      "abstract": "El desarrollo de circuitos impresos (PCB) constituye una etapa fundamental en la formación práctica de estudiantes y profesionales del área de la electrónica. Los métodos tradicionales de fabricación requieren procesos manuales que demandan tiempo y precisión, además del uso de productos químicos para el grabado de las pistas conductoras. En este contexto, el presente trabajo tuvo como objetivo diseñar e implementar una máquina CNC láser destinada a apoyar el proceso de elaboración de circuitos impresos en el Laboratorio de Electrónica de la Facultad de Ciencias y Tecnologías (FCyT), contribuyendo al fortalecimiento de las capacidades prácticas y formativas de los estudiantes. Para el desarrollo del proyecto se establecieron las especificaciones técnicas del sistema, considerando los requerimientos de precisión, área de trabajo y compatibilidad con la fabricación de PCB. Posteriormente, se seleccionaron el diodo láser, los componentes mecánicos y electrónicos y el software de control necesarios para integrar y operar la máquina. Durante las pruebas experimentales se evaluó inicialmente la capacidad del láser para remover directamente el cobre de las placas PCB; sin embargo, la potencia disponible no resultó suficiente para realizar esta tarea de manera eficiente. Por ello, se implementó una metodología alternativa basada en la aplicación de una capa de pintura sobre la placa, cuya remoción selectiva mediante el láser permitió generar la máscara para el posterior ataque químico del cobre expuesto. Las pruebas de calibración y validación permitieron comprobar la viabilidad del sistema para generar máscaras de grabado con precisión, constituyendo una alternativa de bajo costo para fortalecer las actividades de prototipado electrónico en el Laboratorio de Electrónica de la FCyT.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/267",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/ca0ac209-88de-4f54-9099-98bcd9c252d6/content",
-      "pdfSize": 1741064,
-      "pdfName": "PFG GUSTAVO CARTAMAN_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:28:41Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/268",
-      "datestamp": "2026-09-26T13:28:50Z",
-      "handle": "123456789/268",
-      "title": "Proyecto ejecutivo de edificio municipal de cultura para la ciudad de Villarrica del Espíritu Santo",
-      "authors": [
-        "Pezoa Benitez, Jose Maria",
-        "Gimenez Larramendia, Yanina Monserrath",
-        "Penayo Portillo, Esteban Arnaldo",
-        "Airaldi, Carmen Matilde"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Thesis",
-      "career": "Ingeniería Civil",
-      "community": "INGENIERIA CIVIL",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Estructuras y Construcciones civiles",
-        "Geotecnia"
-      ],
-      "researchLine": "Estructuras y Construcciones civiles",
-      "ods": [
-        "ODS 9 - Industria Innovación e Infraestructura",
-        "ODS 11 - Ciudades y comunidades sostenibles"
-      ],
-      "abstract": "La Casa de la Cultura de la Municipalidad de Villarrica del Espíritu Santo desarrolla actualmente sus actividades en instalaciones provisorias que no responden integralmente a los requerimientos académicos, culturales, funcionales y administrativos de la institución. Ante esta situación, el presente trabajo tuvo como objetivo elaborar el proyecto ejecutivo de una sede propia, implantada en un sector del Parque Manuel Ortiz Guerrero y organizada en dos bloques, considerando las necesidades funcionales y las características históricas, culturales y paisajísticas del entorno. La metodología comprendió el relevamiento de los requerimientos institucionales, estudios topográficos y geotécnicos, desarrollo arquitectónico, modelado y dimensionamiento estructural, diseño de instalaciones sanitarias y eléctricas, además de la elaboración del cómputo métrico y presupuesto referencial. El proyecto contempla una superficie aproximada de 3.805,01 m², incluyendo ambos bloques y una plaza de integración concebida como espacio de vinculación del conjunto. La cimentación se resolvió mediante pilotes perforados in situ, apoyados en el estrato resistente identificado mediante el estudio SPT, con diámetros de 0,40 m, 0,50 m y 0,60 m y capacidades admisibles de 18 t, 28 t y 40 t, respectivamente. La propuesta incorpora espacios especializados para música, danza, artes escénicas, taekwondo, exposiciones, biblioteca y administración, junto con criterios de accesibilidad, aislamiento acústico, prevención contra incendios e instalaciones acordes con las funciones previstas. El costo referencial total asciende a Gs. 9.335.818.804. Como resultado, se obtuvo una base técnica coordinada para la futura ejecución de una sede permanente, orientada a mejorar las condiciones de formación artística, gestión institucional y difusión cultural en Villarrica del Espíritu Santo y el departamento del Guairá.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/268",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/5460f869-99d4-4a54-9172-432f81f2a3b8/content",
-      "pdfSize": 2359689,
-      "pdfName": "PFG_Yanina_José_set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T13:28:50Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/269",
-      "datestamp": "2026-09-26T14:35:39Z",
-      "handle": "123456789/269",
-      "title": "Propuesta de alternativa de configuración de barras de la ES-COV de la ANDE para mejorar la flexibilidad operativa de los equipos de maniobras",
-      "authors": [
-        "Hidalgo Ortellado, Carmen Beatriz",
-        "Duré Cabañas, Alex Ismael"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Technical Report",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Transmisión de Energía Eléctrica"
-      ],
-      "researchLine": "Transmisión de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria Innovación e Infraestructura"
-      ],
-      "abstract": "El presente trabajo analiza una alternativa de configuración de barras para la Estación de Coronel Oviedo (ES-COV) de la ANDE, con el propósito de mejorar la flexibilidad operativa y la seguridad del sistema eléctrico. La estación, ubicada en Coronel Oviedo, departamento de Caaguazú, forma parte del Sistema de Transmisión Centro y opera a 220 kV. La configuración actual, compuesta por doble barra principal y barra de transferencia, se encuentra incompleta debido a que dispone de una sola posición para acoplamiento y transferencia, siendo esta última posible únicamente desde la Barra 2. Esta condición genera dificultades operativas, entre ellas tiempos elevados para el traspaso total de cargas y limitaciones para implementar las protecciones de falla de interruptor (50BF) y diferencial de barras (87B). La metodología aplicada fue de carácter descriptivo y propositivo e incluyó revisión documental, relevamiento de campo, análisis de alternativas y desarrollo de la propuesta técnica. Se planteó reutilizar la posición correspondiente al banco de reactores, actualmente fuera de servicio, como una nueva posición de acoplamiento, además de modificar la posición existente para que opere exclusivamente como transferencia completa. Los cálculos de verificación determinaron una corriente de cortocircuito de 31,5 kA, inferior a la capacidad de 40 kA, así como el cumplimiento de las distancias de seguridad establecidas en IEC 61936-1 y una capacidad de corriente adecuada para las condiciones actuales y la proyección a cinco años. El presupuesto estimado asciende a USD 688.400. La propuesta permitiría completar la configuración de barras, habilitar la operación simultánea de ambas barras e implementar las protecciones 50BF y 87B.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/269",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/0f8d4131-637c-483a-9398-8877f44e0d39/content",
-      "pdfSize": 1157356,
-      "pdfName": "presentacion Carmen Hidalgo set26_compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-26T14:35:39Z",
-      "quality": {
-        "hasAuthor": true,
-        "hasDate": true,
-        "hasAbstract": true,
-        "hasSubjects": true,
-        "hasResearchLine": true,
-        "hasOds": true,
-        "hasDocType": true,
-        "hasUri": true,
-        "hasPdf": true,
-        "completenessScore": 100,
-        "missingFields": []
-      }
-    },
-    {
-      "identifier": "oai:publicaciones.fctunca.edu.py:123456789/270",
-      "datestamp": "2026-09-27T12:34:15Z",
-      "handle": "123456789/270",
-      "title": "Propuesta de alternativa para mejorar los indicadores de calidad del servicio del alimentador CYO-01 en media tensión, de la Estación CYO",
-      "authors": [
-        "Villar Martínez, Iván",
-        "Aguilar Barrios, Jhonny Rodrigo"
-      ],
-      "advisors": [],
-      "dateIssued": "2026-09",
-      "year": 2026,
-      "docType": "Proyecto Final de Grado (PFG)",
-      "rawType": "Technical Report",
-      "career": "Ingeniería en Electricidad",
-      "community": "INGENIERIA EN ELECTRICIDAD",
-      "collection": "PROYECTOS FINALES DE GRADO",
-      "setSpecs": [],
-      "subjects": [
-        "Distribución de Energía Eléctrica",
-        "Innovación e Infraestructura"
-      ],
-      "researchLine": "Distribución de Energía Eléctrica",
-      "ods": [
-        "ODS 7 - Energía asequible y no contaminante",
-        "ODS 9 - Industria"
-      ],
-      "abstract": "El presente proyecto final de grado propone alternativas técnicas para mejorar los indicadores de calidad del servicio y estabilizar el perfil de tensión del alimentador rural de media tensión CYO-01, de 23 kV, perteneciente a la Estación CYO de Carayaó. El objetivo principal fue mitigar la elevada frecuencia de desconexiones intempestivas en la subestación cabecera y corregir las caídas críticas de tensión mediante la optimización de la infraestructura existente. La metodología, de enfoque cuantitativo, comprendió el diagnóstico operativo a partir de registros SCADA correspondientes al año 2024, el diseño de mejoras topológicas, la validación del modelo mediante el software CYME y el análisis de factibilidad económica y financiera. El diagnóstico identificó deficiencias de selectividad y una elevada incidencia de fallas asociadas a causas desconocidas y vegetación, que contribuyeron a un DEP de 10,34 horas/año. Como resultado, se propuso la instalación de un Banco Regulador de Tensión de 100 A, un esquema de protección en cascada para los Equipos de Transferencia y Control y un plan de mantenimiento georreferenciado sobre 26 puntos críticos. Las alternativas propuestas permiten mantener la tensión dentro de la banda regulatoria de ±5%, reducir el FEP a 11,4 veces anuales y el DEP a 4,65 horas anuales, alcanzando una disponibilidad estimada del 99,53%. La inversión requerida asciende a Gs. 473.902.000, con una TIR del 12,4% y un periodo de recuperación de 71 meses operativos.",
-      "language": "es",
-      "uri": "https://publicaciones.fctunca.edu.py/handle/123456789/270",
-      "pdfUrl": "https://publicaciones.fctunca.edu.py/server/api/core/bitstreams/72dbb436-4ff7-4fbf-b8a9-ed1c2ada7472/content",
-      "pdfSize": 1000909,
-      "pdfName": "Presentacion PFG Iván Villar _compressed.pdf",
-      "rights": "Acceso abierto institucional",
-      "importedAt": "2026-10-13T21:36:48.321Z",
-      "updatedAt": "2026-09-27T12:34:15Z",
       "quality": {
         "hasAuthor": true,
         "hasDate": true,

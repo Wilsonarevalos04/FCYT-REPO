@@ -9,22 +9,34 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Repositorio FCyT UNCA | Buscador y Filtro Avanzado de Tesis',
+  title: 'Dashboard Analítico FCyT - UNCA | Repositorio DSpace',
   description:
-    'Portal de búsqueda avanzada y catálogo facetado para el repositorio de tesis y publicaciones de la Facultad de Ciencias y Tecnologías (FCyT) - Universidad Nacional de Caaguazú, basado en DSpace 10.0 HAL+JSON.',
+    'Sistema de Inteligencia Institucional y Dashboard Estadístico para el Repositorio DSpace de la Facultad de Ciencias y Tecnologías (FCyT) - Universidad Nacional de Caaguazú. Desarrollado por Wilson Javier Arévalos Peralta y Jorge Ronaldo Areco Falcón.',
   keywords: [
     'FCyT',
     'UNCA',
     'Tesis FCyT',
     'DSpace UNCA',
+    'OAI-PMH',
     'Ingeniería Informática',
     'Ingeniería Civil',
     'Ingeniería en Electricidad',
     'Ingeniería Electrónica',
     'Coronel Oviedo',
-    'Repositorio Digital',
+    'Wilson Arévalos',
+    'Jorge Areco',
   ],
-  authors: [{ name: 'Facultad de Ciencias y Tecnologías - UNCA' }],
+  authors: [
+    { name: 'Wilson Javier Arévalos Peralta', url: 'https://github.com/Wilsonarevalos04' },
+    { name: 'Jorge Ronaldo Areco Falcón', url: 'https://github.com/Areco-Github' },
+    { name: 'Facultad de Ciencias y Tecnologías - UNCA' },
+  ],
+  creator: 'Wilson Javier Arévalos Peralta & Jorge Ronaldo Areco Falcón',
+  icons: {
+    icon: '/logo-fcyt.png',
+    shortcut: '/logo-fcyt.png',
+    apple: '/logo-fcyt.png',
+  },
 };
 
 export default function RootLayout({

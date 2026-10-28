@@ -223,9 +223,9 @@ export const MainDashboard: React.FC<MainDashboardProps> = ({ report, onFilterCh
                   <Tooltip content={<CustomBarTooltip />} />
                   <Bar
                     dataKey="count"
-                    fill="#2563eb"
+                    fill="#1b60b8"
                     radius={[6, 6, 0, 0]}
-                    className="cursor-pointer hover:opacity-80 transition-opacity"
+                    className="cursor-pointer hover:opacity-85 transition-opacity"
                   />
                 </BarChart>
               ) : (
@@ -245,9 +245,9 @@ export const MainDashboard: React.FC<MainDashboardProps> = ({ report, onFilterCh
                   <Line
                     type="monotone"
                     dataKey="count"
-                    stroke="#2563eb"
+                    stroke="#1b60b8"
                     strokeWidth={3}
-                    dot={{ fill: '#1d4ed8', r: 4 }}
+                    dot={{ fill: '#0c2340', r: 4 }}
                     activeDot={{ r: 6 }}
                   />
                 </LineChart>

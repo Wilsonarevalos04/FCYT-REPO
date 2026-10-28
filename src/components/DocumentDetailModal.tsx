@@ -39,26 +39,35 @@ export const DocumentDetailModal: React.FC<DocumentDetailModalProps> = ({
       <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs" onClick={onClose} />
 
       <div className="relative bg-white rounded-3xl max-w-3xl w-full shadow-2xl border border-slate-200 overflow-hidden z-10 flex flex-col max-h-[90vh]">
-        {/* Header Institucional */}
-        <div className="p-6 bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 text-white flex items-start justify-between gap-4">
-          <div className="space-y-2">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="px-2.5 py-0.5 rounded-md text-[11px] font-semibold bg-blue-500/30 text-blue-200 border border-blue-400/30">
-                {document.career}
-              </span>
-              <span className="px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-white/10 text-white">
-                {document.docType}
-              </span>
-              {document.year && (
-                <span className="px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-white/10 text-white">
-                  Año {document.year}
-                </span>
-              )}
+        {/* Header Institucional con Escudo Oficial */}
+        <div className="p-6 bg-gradient-to-r from-[#0a1d37] via-[#0f2d57] to-[#1b60b8] text-white flex items-start justify-between gap-4">
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-white p-0.5 shadow-md shrink-0 ring-2 ring-white/20 hidden sm:flex items-center justify-center">
+              <img
+                src="/logo-fcyt.png"
+                alt="Escudo Oficial FCyT"
+                className="w-full h-full object-contain"
+              />
             </div>
-            <h2 className="text-base sm:text-lg font-bold leading-snug">{document.title}</h2>
+            <div className="space-y-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="px-2.5 py-0.5 rounded-md text-[11px] font-bold bg-white/20 text-blue-100 border border-white/25">
+                  {document.career}
+                </span>
+                <span className="px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-black/20 text-white">
+                  {document.docType}
+                </span>
+                {document.year && (
+                  <span className="px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-black/20 text-white">
+                    Año {document.year}
+                  </span>
+                )}
+              </div>
+              <h2 className="text-base sm:text-lg font-bold leading-snug">{document.title}</h2>
+            </div>
           </div>
 
-          <button onClick={onClose} className="p-2 text-slate-300 hover:text-white rounded-xl hover:bg-white/10 shrink-0">
+          <button onClick={onClose} className="p-2 text-blue-200 hover:text-white rounded-xl hover:bg-white/10 shrink-0">
             <X className="w-5 h-5" />
           </button>
         </div>

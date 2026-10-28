@@ -51,6 +51,13 @@ export async function POST(request: NextRequest) {
     // Crear libro con SheetJS / XLSX
     const worksheet = XLSX.utils.json_to_sheet(rows);
     const workbook = XLSX.utils.book_new();
+    workbook.Props = {
+      Title: 'Reporte de Publicaciones FCyT - UNCA',
+      Subject: 'Repositorio DSpace FCyT UNCA (OAI-PMH)',
+      Author: 'Wilson Javier Arévalos Peralta & Jorge Ronaldo Areco Falcón',
+      Company: 'Facultad de Ciencias y Tecnologías - UNCA',
+      CreatedDate: new Date(),
+    };
     XLSX.utils.book_append_sheet(workbook, worksheet, 'Publicaciones FCyT');
 
     if (format === 'csv') {
